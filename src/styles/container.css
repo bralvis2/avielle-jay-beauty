@@ -1,0 +1,69 @@
+:root {
+    --khaki: #EAE5E1;
+    --blush: #E7DCDA;
+    --celadon: #C4CEC5;
+    --tan: #A56546;
+    --cognac: #89685F;
+    --gray: #3E3E40;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: 'Cormorant Garamond', serif;
+    margin: 0;
+    /* overflow: hidden; */
+}
+
+header {
+    background-color: white;
+    color: var(--gray);
+}
+
+header h1 {
+    margin: auto;
+    padding-top: 10px;
+    text-align: center;
+}
+
+nav {
+    padding-bottom: 10px;
+    font-size: 1.75rem;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    width: 90%;
+    margin: auto;
+}
+
+a:hover {
+    color: var(--cognac);
+    cursor: pointer;
+}
+
+.announcement {
+    background-color: var(--blush);
+    text-align: center;
+    padding-top: 10px;
+    font-size: 1.25rem;
+}
+
+@media screen and (max-width: 600px){
+    nav {
+        font-size: 1.45rem;
+    }
+
+    ul {
+        padding-left: 0;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+
+    /* .logo {
+        display: none;
+    } */
+}
