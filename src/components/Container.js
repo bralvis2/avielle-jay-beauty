@@ -1,6 +1,7 @@
 import React from 'react';
 import Nav from './Nav';
 import Footer from './Footer';
+import Home from './pages/Home';
 
 export default function Container(){
     return (
@@ -8,7 +9,9 @@ export default function Container(){
           <header>
             <Nav/>
           </header>
-          <main>Main Content</main>
+          <main>
+            <Home/>
+          </main>
           <Footer/>
         </div>
     );

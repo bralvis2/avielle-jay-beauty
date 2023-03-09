@@ -11,7 +11,7 @@
     box-sizing: border-box;
     font-family: 'Cormorant Garamond', serif;
     margin: 0;
-    /* overflow: hidden; */
+    overflow-x: hidden;
 }
 
 header {
@@ -30,14 +30,44 @@ nav {
     font-size: 1.75rem;
 }
 
-ul {
+nav ul {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     list-style-type: none;
-    width: 90%;
+    width: 95%;
     margin: auto;
 }
+
+.book-online {
+    border-radius: 15px;
+    width: 200px;
+    font-size: 1.40rem;
+    background-color: var(--blush);
+    border: 1px solid var(--blush);
+    display: flex;
+    justify-content: center;
+}
+
+.book-online a {
+    color: var(--gray);
+    text-decoration: none;
+    margin-top: 2px;
+}
+
+.book-online:hover {
+    opacity: 80%;
+    color: var(--cognac);
+    cursor: pointer;
+}
+
+.book-online-icon {
+    width: 25px;
+    margin-left: 10px;
+    margin-top: 2px;
+    fill: var(--cognac)
+}
+
 
 a:hover {
     color: var(--cognac);
@@ -51,7 +81,13 @@ a:hover {
     font-size: 1.25rem;
 }
 
-@media screen and (max-width: 600px){
+@media  screen and (max-width: 900px ) {
+    ul {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 700px){
     nav {
         font-size: 1.45rem;
     }
@@ -61,6 +97,10 @@ a:hover {
         flex-direction: column;
         text-align: center;
         width: 100%;
+    }
+
+    .book-online {
+        margin: auto;
     }
 
     /* .logo {

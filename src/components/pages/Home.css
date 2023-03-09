@@ -1,0 +1,164 @@
+:root {
+    --dusty-rose: #C59894;
+}
+
+/* Banner with three images and two tone background */
+.banner {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(white 50%, var(--blush) 50%);
+}
+
+/* Hi Babe Section */
+.section-two {
+    background-color: var(--blush);
+}
+
+.about {
+    width: 70%;
+    margin: auto;
+    padding: 30px 0;
+    text-align: center;
+    font-size: 1.45rem;
+}
+
+.quote {
+    font-family: 'League Script', cursive;
+    text-align: center;
+}
+
+/* Starting at Decorative Quote and Services */
+.decoration {
+    font-size: 2.5rem;
+    padding: 30px 0;
+    color: var(--dusty-rose);
+    background-color: #F9F9FB;
+}
+
+.section-three {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #F9F9FB;
+}
+
+.beauty-services, .hair-services {
+    padding: 50px;
+    padding-top: 5px;
+    width: 40%;
+}
+
+.beauty-services h1, .hair-services h1 {
+    font-family: sans-serif;
+    font-weight: 200;
+    text-align: center;
+    font-size: 3rem;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--gray);
+}
+
+.beauty-services p, .hair-services p {
+    padding-top: 20px;
+    font-size: 1.25rem;
+}
+
+.beauty-services h2, .hair-services h2 {
+    font-size: 2.15rem;
+    padding-top: 20px;
+    color: var(--dusty-rose);
+}
+
+.beauty-services ul li, .hair-services ul li {
+    font-size: 1.3rem;
+    padding: 5px 0;
+}
+
+.beauty-services-btn {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: var(--blush);
+    width: 270px;
+    border-radius: 30px;
+    border: 1px solid var(--blush);
+    font-size: 1.15rem;
+}
+
+.beauty-services-btn:hover {
+    opacity: 80%;
+    color: var(--cognac);
+}
+
+.beauty-services-btn a {
+    color: var(--gray);
+    text-decoration: none;
+    margin-top: 3px;
+}
+
+.hair-services {
+    padding-top: 30px;
+}
+
+/* Section 4 What We Offer */
+.section-four h1 {
+    background-color: #F9F9FB;
+    text-align: center;
+    font-size: 3rem;
+    color: var(--gray);
+}
+
+.offer-card-container {
+    background-color: #F9F9FB;
+    display: flex;
+    justify-content: center;
+}
+
+.offer-card {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid white;
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px var(--blush);
+    background-color: white;
+    overflow: hidden;
+}
+
+.offer-card-heading {
+    border-bottom: 2px solid var(--dusty-rose);
+    font-size: 1.15rem;
+    padding-bottom: 20px;
+    color: var(--gray);
+}
+
+.offer-card-heading .number {
+    color: var(--dusty-rose);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 100;
+    font-size: 2.65rem;
+    margin-right: 10px;
+}
+
+.offer-card-content {
+    font-size: 1.25rem;
+    padding: 25px;
+}
+
+
+
+
+/* Media Query for Responsiveness */
+@media screen and (max-width: 1200px){
+    .banner {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 600px){
+    .banner {
+        display: none;
+    }
+
+}
