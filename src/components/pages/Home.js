@@ -1,9 +1,9 @@
 import React from 'react';
-import imageOne from './images/img1.png'
-import imageTwo from './images/img2.png'
-import imageThree from './images/img3.png'
-import imageFour from './images/img4.png'
-import imageFive from './images/img5.png'
+import bannerA from './images/banner-a.png'
+import bannerB from './images/banner-b.png'
+import bannerC from './images/banner-c.png'
+import homeO from './images/home-1.png'
+import homeT from './images/home-2.png'
 
 // Style Sheet
 import './Home.css'
@@ -12,9 +12,9 @@ function Home(){
     return (
         <div>
             <div className='banner'>
-                <img src={imageOne} alt='Karleigh on her Wedding Day' width={'450px'}/>
-                <img src={imageTwo} alt='Wedding Day' width={'320px'}/>
-                <img src={imageThree} alt='Wedding Day' width={'450px'}/>
+                <img src={bannerA} alt='Bridal Client photography credit https://hollymarie.photo/' width={'450px'}/>
+                <img src={bannerB} alt='Bridal Client event by lux beauty and bridal ' width={'320px'}/>
+                <img src={bannerC} alt='Brial Client photography by photo house films' width={'450px'}/>
             </div>
             <div className='section-two'>
                 <div className='about'>
@@ -34,8 +34,8 @@ function Home(){
             <div>
                 <h1 className='quote decoration'>makeup is art beauty is spirit</h1>
                 <div className='section-three'>
-                    <div>
-                        <img src={imageFour} alt='Wedding Day' width={'600px'}/>
+                    <div className='section-three-image'>
+                        <img src={homeO} alt='Client and Owner of Bella Body Design LLC' width={'600px'}/>
                     </div>
                     <div className='beauty-services'>
                         <h1>Beauty Services</h1>
@@ -51,10 +51,12 @@ function Home(){
                             <li>Bridal Makeup</li>
                             <li>HD Makeup Bridal Party</li>
                             <li>Temptu Airbrush</li>
+                            <li>
+                                <button className='beauty-services-btn'>
+                                    <a href="">VIEW BEAUTY SERVICES</a>
+                                </button>
+                            </li>
                         </ul>
-                        <button className='beauty-services-btn'>
-                            <a href="">VIEW BEAUTY SERVICES</a>
-                        </button>
                     </div>
                     <div className='hair-services'>
                         <h1>Hair Services</h1>
@@ -70,13 +72,15 @@ function Home(){
                             <li>Bridal Hair</li>
                             <li>Hair Styling for Bridal Party</li>
                             <li>Flower Girl Hair</li>
+                            <li>
+                                <button className='beauty-services-btn'>
+                                    <a href="">VIEW HAIR SERVICES</a>
+                                </button>
+                            </li>
                         </ul>
-                        <button className='beauty-services-btn'>
-                            <a href="">VIEW HAIR SERVICES</a>
-                        </button>
                     </div>
-                    <div>
-                        <img src={imageFive} alt='makeup' width={'600px'}/>
+                    <div className='section-three-image'>
+                        <img src={homeT} alt='Bridal Client photography by Lauren Parr Photography' width={'600px'}/>
                     </div>
                 </div>
             </div>

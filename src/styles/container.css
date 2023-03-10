@@ -1,8 +1,9 @@
 :root {
     --khaki: #EAE5E1;
+    --pewter: #F9F9FB;
     --blush: #E7DCDA;
-    --celadon: #C4CEC5;
-    --tan: #A56546;
+   --dusty-rose: #BC8880;
+   --rose: #945055;
     --cognac: #89685F;
     --gray: #3E3E40;
 }
@@ -15,7 +16,7 @@
 }
 
 header {
-    background-color: white;
+    background-color: var(--pewter);
     color: var(--gray);
 }
 
@@ -77,22 +78,26 @@ a:hover {
 .announcement {
     background-color: var(--blush);
     text-align: center;
-    padding-top: 10px;
+    padding: 10px 0;
     font-size: 1.25rem;
 }
 
 @media  screen and (max-width: 900px ) {
-    ul {
+    nav ul {
         width: 100%;
     }
 }
 
 @media screen and (max-width: 700px){
+    .announcement p {
+        font-size: 1rem;
+    }
+    
     nav {
         font-size: 1.45rem;
     }
 
-    ul {
+    nav ul {
         padding-left: 0;
         flex-direction: column;
         text-align: center;

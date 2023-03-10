@@ -1,12 +1,8 @@
-:root {
-    --dusty-rose: #C59894;
-}
-
 /* Banner with three images and two tone background */
 .banner {
     display: flex;
     justify-content: center;
-    background: linear-gradient(white 50%, var(--blush) 50%);
+    background: linear-gradient(var(--pewter) 50%, var(--blush) 50%);
 }
 
 /* Hi Babe Section */
@@ -31,8 +27,8 @@
 .decoration {
     font-size: 2.5rem;
     padding: 30px 0;
-    color: var(--dusty-rose);
-    background-color: #F9F9FB;
+    color: var(--rose);
+    background-color: var(--pewter);
 }
 
 .section-three {
@@ -40,13 +36,19 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: #F9F9FB;
+    background-color: var(--pewter);
+    width: 100%;
 }
+
+.section-three-image{
+    display: flex;
+}
+
 
 .beauty-services, .hair-services {
     padding: 50px;
     padding-top: 5px;
-    width: 40%;
+    width: 50%;
 }
 
 .beauty-services h1, .hair-services h1 {
@@ -66,7 +68,7 @@
 .beauty-services h2, .hair-services h2 {
     font-size: 2.15rem;
     padding-top: 20px;
-    color: var(--dusty-rose);
+    color: var(--rose);
 }
 
 .beauty-services ul li, .hair-services ul li {
@@ -101,14 +103,15 @@
 
 /* Section 4 What We Offer */
 .section-four h1 {
-    background-color: #F9F9FB;
+    background-color: var(--pewter);
     text-align: center;
     font-size: 3rem;
     color: var(--gray);
+    padding-top: 20px;
 }
 
 .offer-card-container {
-    background-color: #F9F9FB;
+    background-color: var(--pewter);
     display: flex;
     justify-content: center;
 }
@@ -118,11 +121,10 @@
     padding: 20px;
     border: 1px solid white;
     width: 400px;
-    height: 400px;
+    /* height: 400px; */
     border-radius: 10px;
     box-shadow: 10px 10px 5px var(--blush);
     background-color: white;
-    overflow: hidden;
 }
 
 .offer-card-heading {
@@ -150,15 +152,70 @@
 
 /* Media Query for Responsiveness */
 @media screen and (max-width: 1200px){
-    .banner {
-        display: none;
-    }
+   .section-three {
+    flex-direction: column;
+    align-content: center;
+   }
 
+   .section-three-image {
+    width: 90%;
+    justify-content: center;
+   }
+
+   .beauty-services, .hair-services {
+    padding-top: 20px;
+    width: 90%;
+    margin: auto;
 }
 
-@media screen and (max-width: 600px){
-    .banner {
-        display: none;
+.beauty-services h2, .hair-services h2,
+.beauty-services ul li, .hair-services ul li{
+    text-align: center;
+}
+
+} 
+
+@media screen and (max-width: 1320px){
+    .offer-card-container {
+        flex-direction: column;
+    }
+
+    .offer-card {
+        margin: auto;
+        margin-top: 30px;
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .decoration {
+        padding: 10px;
+        
+    }
+
+    .beauty-services, .hair-services {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .beauty-services p, .hair-services p {
+        text-align: center;
+    }
+
+    .beauty-services ul, .hair-services ul {
+        padding-left: 0;
+    }
+
+    .beauty-services-btn {
+        width: 100%;
+    }
+    .section-four h1 {
+        padding: 25px 15px 0px 15px;
+    }
+    .offer-card {
+        margin: auto;
+        margin-top: 30px;
+        width: 90%;
     }
 
 }
