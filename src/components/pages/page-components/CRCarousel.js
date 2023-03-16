@@ -4,9 +4,10 @@ import Carousel from 'react-bootstrap/Carousel';
 // Style Sheet
 import './CRCarousel.css'
 
+// images
 import sbreview from '../images/sb-review.png'
 import hareview from '../images/ha-review.png'
-import bannerC from '../images/banner-c.png'
+
 
 
 
