@@ -1,4 +1,5 @@
 import React from 'react';
+import CRCarousel from './page-components/CRCarousel.js'
 import bannerA from './images/banner-a.png'
 import bannerB from './images/banner-b.png'
 import bannerC from './images/banner-c.png'
@@ -80,7 +81,7 @@ function Home(){
                         </ul>
                     </div>
                     <div className='section-three-image'>
-                        <img src={homeT} alt='Bridal Client photography by Lauren Parr Photography' width={'600px'}/>
+                        <img src={homeT} alt='Bridal Client photography by Lauren Parr Photography' width={'550px'}/>
                     </div>
                 </div>
             </div>
@@ -121,6 +122,15 @@ function Home(){
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className='section-five'>
+                <h1>customer reviews</h1>
+                <div>
+                    <CRCarousel />
+                </div>
+            </div>
+            <div>
+                
             </div>
         </div>
     )

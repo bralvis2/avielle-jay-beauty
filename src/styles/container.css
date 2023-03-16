@@ -78,7 +78,7 @@ a:hover {
 .announcement {
     background-color: var(--blush);
     text-align: center;
-    padding: 10px 0;
+    padding-top: 15px;
     font-size: 1.25rem;
 }
 

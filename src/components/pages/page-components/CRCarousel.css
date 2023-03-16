@@ -1,0 +1,60 @@
+.section-five {
+    background-color: var(--pewter);
+} 
+
+.section-five h1 {
+    font-family: 'League Script', cursive;
+    text-align: center;
+    font-size: 3.25rem;
+    padding: 25px 0 0 0;
+}
+
+.customer-review-container {
+    width: 75%;
+    margin: auto;
+    margin-bottom: 100px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px var(--blush);
+}
+
+.slide {
+    display: flex;
+    height: 600px;
+}
+
+.cr-image {
+    overflow: hidden;
+}
+
+
+.review {
+    width: 40%;
+    margin: auto;
+}
+
+.review h3 {
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    color: #98806B;
+}
+
+.review-content {
+    font-size: 1.25rem;
+}
+
+.client {
+    font-size: 1.5rem;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+
+
+/* @media screen and (max-width: 1200px) {
+    .slide {
+        
+    }
+} */
