@@ -1,0 +1,97 @@
+footer {
+    background-color: var(--pewter);
+}
+
+.footer-content {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.aj-icon {
+    width: 30%;
+    text-align: center;
+    padding: 20px;
+}
+
+.socials {
+    text-align: center;
+    width: 30%;
+    padding: 20px;
+}
+
+.social-icon-container {
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons {
+    fill: var(--rose);
+    width: 30px;
+}
+
+.book-button button{
+    margin: auto;
+    margin-top: 15px;
+}
+
+.buisness-hours {
+    text-align: center;
+    width: 30%;
+    padding: 20px;
+}
+
+.buisness-hours ul {
+    padding: 0;
+}
+
+
+Footer p {
+    text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+    .footer-content {
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .aj-icon {
+        width: 25%;
+        padding: 10px;
+    }
+
+    .socials {
+        width: 35%;
+        padding: 10px;
+    }
+
+    .buisness-hours {
+        padding: 10px;
+    }
+
+}
+
+@media screen and (max-width: 685px) {
+    .footer-content {
+        width: 90%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .aj-icon {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .socials {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .buisness-hours {
+        width: 100%;
+    }
+
+}

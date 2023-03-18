@@ -2,7 +2,7 @@ import React from 'react';
 import logo from '../images/logo.png'
 
 // Style Sheet
-import '../styles/container.css';
+import '../styles/Container.css';
 
 function Nav(){
     return (
