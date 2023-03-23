@@ -19,7 +19,7 @@ function Footer(){
                 <h1>FOLLOW <br/>ALONG</h1>
                 <h4>@AVIELLEJAYBEAUTY</h4>
                 <div className='social-icon-container'>
-                    <a href='https://www.instagram.com/aviellejaybeauty/'>
+                    <a href='https://www.instagram.com/aviellejaybeauty/' target="_blank">
                         <div className='social-icons'>
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                                 <circle cx="255.25" cy="256.21" r="70.68"></circle>
@@ -30,7 +30,7 @@ function Footer(){
                             </svg>
                         </div>
                     </a>
-                    <a href='https://www.facebook.com/aviellejaybeauty'>
+                    <a href='https://www.facebook.com/aviellejaybeauty' target="_blank">
                         <div className='social-icons'>
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                                 <path d="M288 192v-38.1c0-17.2 3.8-25.9 30.5-25.9H352V64h-55.9c-68.5 

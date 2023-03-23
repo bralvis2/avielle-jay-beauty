@@ -18,7 +18,7 @@ function Home(){
                 <img src={bannerC} alt='Brial Client photography by photo house films' width={'450px'}/>
             </div>
             <div className='section-two'>
-                <div className='about'>
+                <div className='about-home'>
                     <h1 className='quote'>hi babe!</h1>
                     <h1>LETS GLAM</h1>
                     <p>Hi, I'm Anahi, a make-up artist who specializes in bridal make-up and other special events. 
