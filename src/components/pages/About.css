@@ -1,0 +1,125 @@
+.section-one-about{
+    position: relative;
+}
+
+.header-images {
+    display: flex;
+    justify-content: center;
+}
+
+.mission-statement-container {
+    width: 35%;
+    margin: auto;
+    border: 10px solid white;
+    position: absolute;
+    top: 18%;
+    left: 33%;
+}
+    
+.mission-statement {
+    background-color: white;
+    margin: auto;
+    padding: 0 5px;
+    border: 1px solid var(--cognac);
+    text-align: center;
+    font-size: 1.25rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.mission-statement h1 {
+    text-align: center;
+}
+
+@media screen and (max-width: 1455px){
+    .mission-statement-container {
+        width: 40%;
+        top: 70px;
+        left: 30%;
+    }
+}
+
+@media screen and (max-width: 1285px){
+    .mission-statement-container {
+        width: 50%;
+        top: 40px;
+        left: 27%;
+    }
+}
+
+@media screen and (max-width: 1150px){
+    .mission-statement-container {
+        width: 65%;
+        left: 20%;
+        top: 20px;
+    }
+
+}
+
+@media screen and (max-width: 960px){
+    .mission-statement-container {
+        width: 75%;
+        left: 15%;
+        top: 8px;
+    }
+
+    .mission-statement h1 {
+        font-size: 2.25rem;
+    }
+
+    .mission-statement {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 770px){ 
+    .section-one-about{
+        background-color: var(--blush);
+        height: 600px;
+    }
+
+    .header-images {
+        flex-direction: column;
+    }
+
+    .header-images img {
+        width: auto;
+    }
+
+    .img-2 {
+        display: none;
+    }
+
+    .mission-statement-container {
+        width: 80%;
+        left: 10%;
+        top: 320px;
+    }
+}
+
+
+@media screen and (max-width: 620px){ 
+
+    .mission-statement-container {
+        top: 220px;
+    }
+
+}
+
+@media screen and (max-width: 410px){ 
+    .section-one-about{
+        height: 650px;
+    }
+    .mission-statement-container {
+        top: 190px;
+    }
+}
+
+@media screen and (max-width: 320px){ 
+    .section-one-about{
+        height: 750px;
+    }
+    .mission-statement-container {
+        top: 150px;
+    }
+}
