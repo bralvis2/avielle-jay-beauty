@@ -71,6 +71,16 @@
     font-size: 1.25rem;
 }
 
+/* Section Three Features */
+.section-three-about {
+    background-color: var(--pewter);
+    text-align: center;
+    padding: 20px;
+}
+
+.section-three-about h1 {
+    color: var(--rose);
+}
 
 /* Media Queries */
 

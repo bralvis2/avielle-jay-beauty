@@ -1,8 +1,14 @@
 import React from 'react';
 
+import CRCarousel from './page-components/CRCarousel.js'
+
 import header1 from './images/about-header.png'
 import header2 from './images/about-header2.png'
 import owner from './images/anahi.png'
+import featureO from './images/feature-one.png'
+import featureT from './images/feature-two.png'
+
+
 
 //Style Sheet
 import './About.css'
@@ -48,6 +54,19 @@ export default function About() {
             strive to make every client feel confident and beautiful from the inside out.</p>
         </div>
       </div>
+      <div className='section-three-about'>
+        <h1>I'VE BEEN FEATURED ON</h1>
+        <div className='featured-icons'>
+          <img src={featureO} alt='The know best of weddings award 2023' width={'100px'}/>
+          <img src={featureT} alt='The know best of weddings award 2020' width={'105px'}/>
+        </div>
+      </div>
+      <div className='section-five'>
+                <h1>customer reviews</h1>
+                <div>
+                    <CRCarousel />
+                </div>
+            </div>
     </div>
   );
 }
