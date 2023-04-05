@@ -64,7 +64,7 @@
     font-size: 3rem;
     font-family: 'Montserrat', sans-serif;
     font-weight: 100;
-    color: #98806B;
+    color: var(--cognac);
 }
 
 .meet-owner p {
@@ -80,7 +80,7 @@
 }
 
 .section-three-about h1 {
-    color: var(--rose);
+    color: var(--cognac);
 }
 
 /* Media Queries */
