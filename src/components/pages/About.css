@@ -31,6 +31,49 @@
     text-align: center;
 }
 
+/* Section Two About the Owner */
+
+.section-two-about {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: var(--pewter);
+    padding: 10px;
+    padding-top: 20px;
+}
+.owner-image {
+    padding-top: 10px;
+}
+.owner-image img {
+    border-radius: 219px 219px 0px 0px;
+    width: 300px;
+}
+
+.meet-owner {
+    background-color: white;
+    width: 60%;
+    border: 1px solid white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px var(--blush);
+    margin-left: 5px;
+}
+
+.meet-owner h1 {
+    margin-bottom: 10px;
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    color: #98806B;
+}
+
+.meet-owner p {
+    font-size: 1.25rem;
+}
+
+
+/* Media Queries */
+
 @media screen and (max-width: 1455px){
     .mission-statement-container {
         width: 40%;
@@ -70,11 +113,24 @@
     .mission-statement {
         font-size: 1rem;
     }
+
+    .owner-image img {
+        width: 250px;
+    }
+
+    .meet-owner h1 {
+        font-size: 2.5rem;
+    }
+    
+    .meet-owner p {
+        font-size: 1rem;
+    }
 }
+
 
 @media screen and (max-width: 770px){ 
     .section-one-about{
-        background-color: var(--blush);
+        background-color: var(--pewter);
         height: 600px;
     }
 
@@ -95,6 +151,25 @@
         left: 10%;
         top: 320px;
     }
+
+    .owner-image {
+        padding-top: 30px;
+    }
+    .owner-image img {
+        width: 150px;
+    }
+
+    .meet-owner {
+        width: 70%;
+    }
+
+    .meet-owner h1 {
+        font-size: 2rem;
+    }
+    
+    .meet-owner p {
+        font-size: .75rem;
+    }
 }
 
 
@@ -102,6 +177,37 @@
 
     .mission-statement-container {
         top: 220px;
+    }
+
+    .section-two-about {
+        flex-direction: column;
+    }
+
+    .owner-image {
+        text-align: center;
+        padding-top: 0px;
+    }
+
+    .owner-image img {
+        width: 80%;
+    }
+
+    .meet-owner {
+        width: 90%;
+        margin: auto;
+        margin-top: 20px;
+    }
+    
+    .meet-owner h1 {
+        margin-bottom: 10px;
+        font-size: 3rem;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 100;
+        color: #98806B;
+    }
+    
+    .meet-owner p {
+        font-size: 1.25rem;
     }
 
 }

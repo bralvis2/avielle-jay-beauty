@@ -2,11 +2,10 @@ import React from 'react';
 
 import header1 from './images/about-header.png'
 import header2 from './images/about-header2.png'
+import owner from './images/anahi.png'
 
 //Style Sheet
 import './About.css'
-
-import Image from 'react-bootstrap/Image'
 
 
 export default function About() {
@@ -14,8 +13,8 @@ export default function About() {
     <div className='about'>
       <div className='section-one-about'>
         <div className='header-images'>
-            <Image src={header1} alt='Bride and her bridal party' width={'850px'}/>
-            <Image src={header2} className='img-2'alt='Bride and her bridal party' width={'900px'}/>
+            <img src={header1} alt='Bride and her bridal party' width={'850px'}/>
+            <img src={header2} className='img-2'alt='Bride and her bridal party' width={'900px'}/>
         </div>
         <div className='mission-statement-container'>
           <div className='mission-statement'>
@@ -27,6 +26,26 @@ export default function About() {
               and enjoyable experience for each bride, ensuring they feel confident and radiant as 
               they walk down the aisle.</p>
           </div>
+        </div>
+      </div>
+      <div className='section-two-about'>
+        <div className='owner-image'>
+          <img src={owner} alt='Anahi Lopez'/>
+        </div>
+        <div className='meet-owner'>
+          <h1>Meet Anahi</h1>
+          <h3>Owner & Stylist</h3>
+          <p>Hi, my name is Anahi, and I am a makeup artist and hair stylist. As a mother of three, 
+            I know firsthand the importance of feeling confident and beautiful, especially on your 
+            big day. This is why I specialize in creating stunning bridal looks that enhance each 
+            client's natural beauty and make them feel like the best version of themselves. For me, 
+            there is nothing more rewarding than seeing the look of joy and satisfaction on a client's 
+            face when they see their finished makeup and hair. I am passionate about my work and 
+            dedicated to providing exceptional service to each and every client. With years of 
+            experience in the beauty industry, I have developed a keen eye for color, composition, 
+            and texture, which I use to create personalized looks that perfectly complement each 
+            client's features and personality. Whether it's a natural, classic, or dramatic look, I 
+            strive to make every client feel confident and beautiful from the inside out.</p>
         </div>
       </div>
     </div>
