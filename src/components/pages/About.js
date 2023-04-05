@@ -39,8 +39,10 @@ export default function About() {
           <img src={owner} alt='Anahi Lopez'/>
         </div>
         <div className='meet-owner'>
-          <h1>Meet Anahi</h1>
-          <h3>Owner & Stylist</h3>
+          <div className='meet-owner-header'>
+            <h1>Meet Anahi</h1>
+            <h3>Owner & Stylist</h3>
+          </div>
           <p>Hi, my name is Anahi, and I am a makeup artist and hair stylist. As a mother of three, 
             I know firsthand the importance of feeling confident and beautiful, especially on your 
             big day. This is why I specialize in creating stunning bridal looks that enhance each 
@@ -51,7 +53,7 @@ export default function About() {
             experience in the beauty industry, I have developed a keen eye for color, composition, 
             and texture, which I use to create personalized looks that perfectly complement each 
             client's features and personality. Whether it's a natural, classic, or dramatic look, I 
-            strive to make every client feel confident and beautiful from the inside out.</p>
+            strive to make every client feel confident and beautiful.</p>
         </div>
       </div>
       <div className='section-three-about'>
