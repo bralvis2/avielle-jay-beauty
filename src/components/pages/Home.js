@@ -124,7 +124,7 @@ function Home(){
                 </div>
             </div>
             <div className='section-five'>
-                <h1>customer reviews</h1>
+                <h1>what customers have to say</h1>
                 <div>
                     <CRCarousel />
                 </div>

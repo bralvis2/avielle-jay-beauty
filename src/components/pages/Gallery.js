@@ -26,7 +26,7 @@ export default function Gallery() {
           <img src={galleryHeaderTwo} alt='Bride and Groom'/>
         </div>
         <div className='gallery-header-text'>
-          <h1 className='cursive'>explore past client's</h1>
+          <h1>explore past client's</h1>
           <h2 className=''>BRIDAL LOOKS</h2>
           <h3>I STRIVE TO MAKE EVETY CLIENT FEEL CONFIDENT AND BEAUTIFUL.</h3>
         </div>

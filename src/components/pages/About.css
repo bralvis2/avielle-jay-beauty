@@ -80,7 +80,8 @@
 }
 
 .section-three-about h1 {
-    color: var(--cognac);
+    color: var(--dusty-rose);
+    font-size: 4rem;
 }
 
 /* Media Queries */
