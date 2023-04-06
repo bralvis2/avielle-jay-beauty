@@ -1,0 +1,29 @@
+.gallery-carousel-container {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 100px;
+    background-color: var(--pewter);
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px var(--blush);
+}
+
+.gc-slide {
+   width: auto;
+   margin: auto;
+}
+
+.gc-image-container {
+    overflow: hidden;
+    display: flex;
+}
+
+.gc-image-container img {
+    height: 100%;
+}
+
+@media screen and (max-width: 765px) {
+    .gallery-carousel-container{
+        margin-bottom: 50px;
+    }
+}

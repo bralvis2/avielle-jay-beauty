@@ -1,0 +1,49 @@
+.section-one-contact {
+    background-color: var(--pewter);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: auto;
+}
+
+.g-carousel{
+    width: 43%;
+}
+
+.contact-header-text {
+    width: 40%;
+    height: 400px;
+    text-align: center;
+}
+
+.location-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.location-icon {
+    width: 35px;
+    fill: var(--dusty-rose);
+}
+
+.location-details p {
+    margin-top: 15px;
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width:765px) {
+    .section-one-contact {
+        flex-direction: column;
+    }
+
+    .g-carousel{
+        width: 90%;
+        margin: auto;
+    }
+
+    .contact-header-text {
+        width: 90%;
+    }
+}
