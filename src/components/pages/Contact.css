@@ -64,6 +64,42 @@
     font-size: 1.25rem;
 }
 
+/* section four decorative banner */
+.section-four-contact {
+    background-color: var(--blush);
+}
+
+.section-four-contact h1 {
+    color: var(--dusty-rose);
+    font-size: 4rem;
+    text-align: center;
+}
+
+.sf-card-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sf-cards {
+    width: 25%;
+}
+
+.sf-card-images {
+    display: flex;
+    justify-content: center;
+}
+
+.sf-card-images img {
+    height: 100%;
+    border-radius: 219px 219px 0px 0px;
+    margin: 10px;
+}
+
+.sf-card-container h2 {
+    text-align: center;
+}
+
+
 @media screen and (max-width:765px) {
     .section-one-contact {
         flex-direction: column;
@@ -76,5 +112,19 @@
 
     .contact-header-text {
         width: 90%;
+    }
+
+    .sf-card-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sf-cards {
+        width: 70%;
+    }
+
+    .sf-card-container h2 {
+        font-size: 2.5rem;
     }
 }

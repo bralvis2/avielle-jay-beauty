@@ -6,7 +6,6 @@
 .gallery-header-img {
     display: flex;
     width: 100%;
-    background-color: var(--pewter);
 }
 
 .gallery-header-img-two {

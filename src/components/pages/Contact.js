@@ -2,6 +2,10 @@ import React from 'react';
 import GCarousel from './page-components/G-Carousel.js'
 import ContactForm from './page-components/Form.js'
 
+import ContactA from './images/contact-a.png'
+import ContactB from './images/contact-b.png'
+import ContactC from './images/contact-c.png'
+
 // Style Sheet
 import './Contact.css'
 
@@ -69,6 +73,29 @@ export default function Contact() {
           <h2>How Should I Prepare My Skin For Makeup Application</h2>
           <p>It's important to have clean, moisturized skin before makeup application. Avoid any harsh 
             scrubs or peels the day of and let me know if you have any specific skincare needs or concerns.</p>
+        </div>
+      </div>
+      <div className='section-four-contact'>
+        <h1>WHAT WE HAVE TO OFFER</h1>
+        <div className='sf-card-container'>
+          <div className='sf-cards'>
+            <div className='sf-card-images'>
+              <img src={ContactA} alt=''/>
+            </div>
+            <h2>Attention To Detail</h2>
+          </div>
+          <div className='sf-cards'>
+            <div className='sf-card-images'>
+              <img src={ContactB} alt=''/>
+            </div>
+            <h2>Client Vision</h2>
+          </div>
+          <div className='sf-cards'>
+            <div className='sf-card-images'>
+              <img src={ContactC} alt=''/>
+            </div>
+            <h2>Skills & Expertise</h2>
+          </div>
         </div>
       </div>
     </div>
