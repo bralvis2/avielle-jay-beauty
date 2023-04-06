@@ -1,0 +1,31 @@
+form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+label {
+    font-size: 1.5rem;
+    padding-top: 15px;
+}
+
+input, textarea {
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+input:hover, textarea:hover {
+    border: 1px solid var(--dusty-rose);
+}
+
+.form-button {
+    border-radius: 15px;
+    width: 200px;
+    font-size: 1.40rem;
+    background-color: var(--blush);
+    border: 1px solid var(--blush);
+    margin: auto;
+    margin-top: 20px;
+}

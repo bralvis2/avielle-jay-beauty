@@ -1,5 +1,6 @@
 import React from 'react';
 import GCarousel from './page-components/G-Carousel.js'
+import ContactForm from './page-components/Form.js'
 
 // Style Sheet
 import './Contact.css'
@@ -35,6 +36,10 @@ export default function Contact() {
             with a comprehensive price sheet. We can't wait to meet you and help make your special day 
             even more memorable!</p>
         </div>
+      </div>
+      <div className='section-two-contact'>
+        <h1>SEND US AN INQUIRY</h1>
+        <ContactForm />
       </div>
     </div>
   );

@@ -33,6 +33,18 @@
     font-size: 1.5rem;
 }
 
+/* Section Two Form  */
+.section-two-contact{
+    background-color: var(--pewter);
+}
+
+.section-two-contact h1{
+    color: var(--dusty-rose);
+    text-align: center;
+    font-size: 4rem;
+}
+
+
 @media screen and (max-width:765px) {
     .section-one-contact {
         flex-direction: column;
