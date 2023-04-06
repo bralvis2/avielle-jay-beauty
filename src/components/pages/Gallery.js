@@ -1,4 +1,5 @@
 import React from 'react';
+import CRCarousel from './page-components/CRCarousel.js'
 
 //Importing Images
 import galleryHeader from './images/gallery-header.png'
@@ -53,6 +54,13 @@ export default function Gallery() {
         <div className='gallery-images'>
           <img src={galleryG} />
         </div>
+      </div>
+
+      <div className='section-five'>
+          <h1>customer reviews</h1>
+          <div>
+              <CRCarousel />
+          </div>
       </div>
     </div>
   );

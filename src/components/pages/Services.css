@@ -2,14 +2,14 @@
     background-color: var(--blush);
 }
 
-.services-two-header {
+.services-two-header, .services-three-header {
     color: var(--dusty-rose);
     text-align: center;
     padding: 40px;
     font-size: 3.5rem;
 }
 
-.service-details {
+.service-makeup-container, .service-hair-container {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -27,7 +27,7 @@
     outline-offset: -10px;
 }
 
-.service-bridal {
+.service-details {
     width: 60%;
     margin-bottom: 5px;
 }
@@ -36,15 +36,33 @@
     font-family: 'Petit Formal Script', cursive;
 }
 
-.service-bridal p, .service-bridal ul {
+.service-hair-details {
+    width: 40%;
+}
+
+.hair-service-details p {
+    font-size: 1.5rem;
+}
+
+.service-details p, .service-details ul, 
+.service-hair-details p, .service-hair-details ul {
     font-size: 1.25rem;
 }
+
+.section-three-services {
+    background-color: var(--pewter);
+}
+
 
 
 /* Media Queries */
 @media screen and (max-width: 770px){
-    .service-details{
+    .service-makeup-container{
         flex-direction: column;
+    }
+
+    .service-hair-container {
+        flex-direction: column-reverse;
     }
 
     .service-images {
@@ -52,9 +70,13 @@
         margin-bottom: 20px;
     }
 
-    .service-bridal {
+    .service-details, .service-hair-details {
         width: 90%;
         margin-bottom: 5px;
         text-align: center;
+    }
+
+    .service-hair-details p {
+        font-size: 1.25rem;
     }
 }

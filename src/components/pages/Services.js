@@ -4,6 +4,8 @@ import serviceA from './images/service-a.png'
 import serviceB from './images/service-b.png'
 import serviceC from './images/service-c.png'
 import serviceD from './images/service-d.png'
+import serviceE from './images/service-e.png'
+import serviceF from './images/service-f.png'
 
 //Style Sheet
 import './Services.css'
@@ -13,11 +15,11 @@ export default function Services() {
     <div className='services'>
       <div className='section-two-services'>
         <h1 className='services-two-header'>EXPLORE MAKEUP SERVICES</h1>
-        <div className='service-details'>
+        <div className='service-makeup-container'>
           <div className='service-images'>
             <img src={serviceA} alt=''/>
           </div>
-          <div className='service-bridal'>
+          <div className='service-details'>
             <h1>Bridal Airbrush Makeup Application</h1>
             <h2 className='cursive'>bride to be!</h2>
             <p>Airbrush makeup is the perfect choice for brides who want to achieve a flawless, 
@@ -33,11 +35,11 @@ export default function Services() {
           </div>
         </div>
 
-        <div className='service-details'>
+        <div className='service-makeup-container'>
           <div className='service-images'>
             <img src={serviceC} alt=''/>
           </div>
-          <div className='service-bridal'>
+          <div className='service-details'>
             <h1>Bridal Party Makeup Application</h1>
             <h2 className='cursive'>for the group!</h2>
             <p>For a cohesive look that complements the bride's makeup and overall wedding theme. 
@@ -61,11 +63,11 @@ export default function Services() {
           </div>
         </div>
 
-        <div className='service-details'>
+        <div className='service-makeup-container'>
           <div className='service-images'>
             <img src={serviceD} alt=''/>
           </div>
-          <div className='service-bridal'>
+          <div className='service-details'>
             <h1>Special Occasion Makeup Application</h1>
             <h2 className='cursive'>for anyone!</h2>
             <p>Whether it's a special occasion, a photoshoot, or just a night out, professional makeup 
@@ -95,6 +97,59 @@ export default function Services() {
             </ul>
           </div>
         </div>
+      </div>
+
+      <div className='section-three-services'>
+        <h1 className='services-three-header'>EXPLORE HAIR SERVICES</h1>
+        <div className='service-hair-container'>
+          <div className='service-hair-details'>
+            <h1>Bridal Hair Styling</h1>
+            <h2 className='cursive'>bride to be!</h2>
+            <p>Whether you're looking for an elegant updo, romantic waves, or a classic 
+              half-up half-down style, we can create a beautiful and 
+              timeless hairstyle that complements your bridal makeup and overall wedding aesthetic.</p>
+            <ul>
+              <h3>Services Include:</h3>
+              <li>Styling Hair Accessories</li>
+              <li>Bridal Veil</li>
+              <li> PRICE: $125</li>
+            </ul>
+          </div>
+          <div className='service-images'>
+            <img src={serviceB} alt=''/>
+          </div>
+        </div>
+
+        <div className='service-hair-container'>
+          <div className='service-hair-details'>
+            <h1>Bridal Party Hair Styling</h1>
+            <h2 className='cursive'>for the group!</h2>
+            <p>We offer a range of hair services for bridal parties to create a cohesive look that
+              complements your wedding theme ensuring each member feels confident and beautiful.</p>
+            <ul>
+              <h3>Services Include:</h3>
+              <li>Styling Hair Accessories</li>
+              <li> PRICE: $85</li>
+            </ul>
+          </div>
+          <div className='service-images'>
+            <img src={serviceE} alt=''/>
+          </div>
+        </div>
+
+        <div className='service-hair-container'>
+          <div className='service-hair-details'>
+            <h1>Special Occasion Hair Styling</h1>
+            <h2 className='cursive'>for anyone!</h2>
+            <p>Whether you want a classic or trendy look, I work closely with you to create a 
+              hairstyle that perfectly complements your features, style, and personal preferences.</p>
+            <p>Contact me to request pricing</p>
+          </div>
+          <div className='service-images'>
+            <img src={serviceF} alt=''/>
+          </div>
+        </div>
+
       </div>
     </div>
   );

@@ -1,7 +1,5 @@
 import React from 'react';
 
-import CRCarousel from './page-components/CRCarousel.js'
-
 import header1 from './images/about-header.png'
 import header2 from './images/about-header2.png'
 import owner from './images/anahi.png'
@@ -56,18 +54,53 @@ export default function About() {
             strive to make every client feel confident and beautiful.</p>
         </div>
       </div>
-      <div className='section-three-about'>
-        <h1>I'VE BEEN FEATURED ON</h1>
-        <div className='featured-icons'>
-          <img src={featureO} alt='The know best of weddings award 2023' width={'100px'}/>
-          <img src={featureT} alt='The know best of weddings award 2020' width={'105px'}/>
-        </div>
-      </div>
-      <div className='section-five'>
-                <h1>customer reviews</h1>
-                <div>
-                    <CRCarousel />
+      
+
+      <div className='section-four'>
+                <h1>WHAT WE HAVE TO OFFER</h1>
+                <div className='offer-card-container'>
+                    <div className='offer-card'>
+                        <div className='offer-card-heading'>
+                            <h2><span className='number'>01</span> ATTENTION TO DETAIL</h2>
+                        </div>
+                        <div className='offer-card-content'>
+                        <p>Attention to detail is a key aspect of my work as a makeup artist, and I strive to ensure that every 
+                            aspect of my client's final look is flawless. I perform a detailed inspection of the final look to 
+                            ensure that everything is in place and that the makeup complements the client's unique features. I 
+                            am able to create a polished and professional finish that my clients will love.</p>
+                        </div>
+                    </div>
+                    <div className='offer-card'>
+                        <div className='offer-card-heading'>
+                            <h2><span className='number'>02</span> CLIENT VISION</h2>
+                        </div>
+                        <div className='offer-card-content'>
+                            <p> From the initial consultation to the final touches, I am dedicated to creating a look that not only meets but exceeds 
+                                their expectations. Whether my client desires a natural or bold look, I tailor my approach to meet 
+                                their unique needs and preferences. Above all, my ultimate goal is to create a look that enhances my 
+                                client's natural beauty and makes them feel confident and radiant.</p>
+                        </div>
+                    </div>
+                    <div className='offer-card'>
+                        <div className='offer-card-heading'>
+                            <h2><span className='number'>03</span> SKILLS & EXPERTISE</h2>
+                        </div>
+                        <div className='offer-card-content'>
+                            <p>With years of experience and training in various makeup techniques, I have developed a keen eye for 
+                                color, texture, and composition. I use my skills to tailor each application to the client's unique 
+                                needs and preferences. I stay up-to-date with the latest trends and techniques to ensure that my 
+                                clients receive the best possible service.</p>
+                        </div>
+                    </div>
                 </div>
+            </div>
+
+            <div className='section-three-about'>
+              <h1>I'VE BEEN FEATURED ON</h1>
+              <div className='featured-icons'>
+                <img src={featureO} alt='The know best of weddings award 2023' width={'100px'}/>
+                <img src={featureT} alt='The know best of weddings award 2020' width={'105px'}/>
+              </div>
             </div>
     </div>
   );
