@@ -1,3 +1,51 @@
+.section-one-services {
+    background-color: var(--pewter);
+    position: relative;
+}
+
+.service-header-image {
+    width: 40%;
+    opacity: .5;
+}
+
+.service-header-image img, 
+.service-header-image-two img {
+    width: 100%;
+}
+
+.service-header-image-two {
+    width: 30%;
+    position: absolute;
+    top: 30px;
+    left: 20%;
+}
+
+
+.service-header-text {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    position: absolute;
+    top: 15%;
+    right: 5%;
+    text-align: center;
+    padding: 10px;
+    border-left: 1px solid var(--cognac);
+}
+
+.service-header-text h1 {
+    font-size: 4.5rem;
+}
+
+.service-header-text h2 {
+    font-size: 3rem;
+}
+
+.service-header-text p {
+    font-size: 2rem;
+}
+
+/* Section Two Makeup Services */
 .section-two-services{
     background-color: var(--blush);
 }
@@ -82,7 +130,59 @@
 
 
 /* Media Queries */
+@media screen and (max-width: 1510px){
+    .service-header-text h1 {
+        font-size: 3.5rem;
+    }
+    
+    .service-header-text h2 {
+        font-size: 2.5rem;
+    }
+    
+    .service-header-text p {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .service-header-text {
+        top: 5%;
+    }
+
+    .service-header-text h1 {
+        font-size: 2.5rem;
+    }
+    
+    .service-header-text h2 {
+        font-size: 2rem;
+    }
+    
+    .service-header-text p {
+        font-size: 1.25rem;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .service-header-text {
+        top: 10px;
+    }
+
+    .service-header-text h1 {
+        font-size: 2rem;
+    }
+    
+    .service-header-text h2 {
+        font-size: 1.5rem;
+    }
+    
+    .service-header-text p {
+        font-size: 1rem;
+    }
+}
+
+
 @media screen and (max-width: 770px){
+  
     .service-makeup-container{
         flex-direction: column;
     }
@@ -106,3 +206,40 @@
         font-size: 1.25rem;
     }
 }
+
+@media screen and (max-width: 705px){
+    .section-one-services {
+        overflow: hidden;
+    }
+
+    .service-header-image {
+        width: 100%;
+        height: 400px;
+        overflow: hidden;
+    }
+
+    .service-header-image-two {
+        width: 60%;
+        top: 50px;
+        left: 20%;
+    }
+
+    .service-header-text {
+        position: static;
+        margin: auto;
+        margin-top: 30%;
+        width: 90%;
+        border-top: 1px solid var(--cognac);
+        border-left: 0px;
+    }
+    
+}
+
+@media screen and (max-width: 565px){
+
+    .service-header-text {
+        margin-top: 18%;
+    }
+    
+}
+

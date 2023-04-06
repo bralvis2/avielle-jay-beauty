@@ -1,5 +1,8 @@
 import React from 'react';
 
+import serviceHeader from './images/service-header.png'
+import serviceHeaderS from './images/service-headers.png'
+
 import serviceA from './images/service-a.png'
 import serviceB from './images/service-b.png'
 import serviceC from './images/service-c.png'
@@ -13,6 +16,22 @@ import './Services.css'
 export default function Services() {
   return (
     <div className='services'>
+      <div className='section-one-services'>
+        <div className='service-header-image'>
+          <img src={serviceHeader} alt=''/>
+        </div>
+        <div className='service-header-image-two'>
+          <img src={serviceHeaderS} alt=''/>
+        </div>
+        <div className='service-header-text'>
+          <h1>LOOK YOUR BEST</h1>
+          <h2 className='cursive'>on your special day!</h2>
+          <p>I strive to create a customized makeup look that highlights their unique beauty 
+            and personality. Seeing the joy and satisfaction on my clients' faces when they 
+            see the final result is truly rewarding, and I take pride in knowing that I have 
+            helped them feel their absolute best.</p>
+        </div>
+      </div>
       <div className='section-two-services'>
         <h1 className='services-two-header'>EXPLORE MAKEUP SERVICES</h1>
         <div className='service-makeup-container'>
@@ -159,7 +178,7 @@ export default function Services() {
 
       <div className='section-four-services'>
         <div className='policies-container'>
-          <h1>POLICES</h1>
+          <h1>POLICIES</h1>
           <div>
             <p>To secure a booking, a deposit and signed contract are required. This deposit ensures that the 
               date and time are reserved for the client and is non-refundable. The contract outlines the terms 
