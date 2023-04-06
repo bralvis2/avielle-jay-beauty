@@ -4,7 +4,9 @@ import AJIcon from '../images/AJB-icon.png'
 // Style Sheet
 import '../styles/Footer.css';
 
-function Footer(){
+import Nav from 'react-bootstrap/Nav';
+
+function Footer({ handlePageChange }){
     return (
     <footer>
         <div className='footer-content'>
@@ -58,7 +60,11 @@ function Footer(){
                 </div>
                 <div className='book-button'>
                     <button className='book-online'>
-                            <a href="mailto:email@gmail.com">Book Online</a>
+                            {/* <a href="mailto:email@gmail.com">Book Online</a> */}
+                            <Nav.Link href="#section-two-contact"
+                              onClick={() => handlePageChange('Contact')}>
+                              Book Online
+                            </Nav.Link>
                             <div className='book-online-icon'>
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                                     <path d="M172,134a12,12,0,0,1-12-12V63a12,12,0,0,1,24,0v59A12,12,0,0,1,172,134Z"></path>

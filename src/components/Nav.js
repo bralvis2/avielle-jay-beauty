@@ -51,7 +51,8 @@ function Navigation({ currentPage, handlePageChange }){
                     </Nav.Link>
                     <div className="nav-link">
                         <button className='book-online'>
-                            <a href="mailto:email@gmail.com">Book Online</a>
+                            <a href="#contact"
+                              onClick={() => handlePageChange('Contact')}>Book Online</a>
                             <div className='book-online-icon'>
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                                     <path d="M172,134a12,12,0,0,1-12-12V63a12,12,0,0,1,24,0v59A12,12,0,0,1,172,134Z"></path>

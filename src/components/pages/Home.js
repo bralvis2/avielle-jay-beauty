@@ -6,10 +6,11 @@ import bannerC from './images/banner-c.png'
 import homeO from './images/home-1.png'
 import homeT from './images/home-2.png'
 
+
 // Style Sheet
 import './Home.css'
 
-function Home(){
+function Home({ handlePageChange }){
     return (
         <div>
             <div className='banner'>
@@ -52,11 +53,11 @@ function Home(){
                             <li>Bridal Makeup</li>
                             <li>HD Makeup Bridal Party</li>
                             <li>Temptu Airbrush</li>
-                            <li>
+                            {/* <li>
                                 <button className='beauty-services-btn'>
                                     <a href="">VIEW BEAUTY SERVICES</a>
                                 </button>
-                            </li>
+                            </li> */}
                         </ul>
                     </div>
                     <div className='hair-services'>
@@ -73,11 +74,11 @@ function Home(){
                             <li>Bridal Hair</li>
                             <li>Hair Styling for Bridal Party</li>
                             <li>Flower Girl Hair</li>
-                            <li>
+                            {/* <li>
                                 <button className='beauty-services-btn'>
                                     <a href="">VIEW HAIR SERVICES</a>
                                 </button>
-                            </li>
+                            </li> */}
                         </ul>
                     </div>
                     <div className='section-three-image'>

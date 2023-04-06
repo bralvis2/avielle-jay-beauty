@@ -12,6 +12,15 @@ import galleryD from './gallery-images/gallery-d.png'
 import galleryE from './gallery-images/gallery-e.png'
 import galleryF from './gallery-images/gallery-f.png'
 import galleryG from './gallery-images/gallery-g.png'
+import galleryH from './gallery-images/gallery-h.png'
+import galleryI from './gallery-images/gallery-i.png'
+import galleryJ from './gallery-images/gallery-j.png'
+import galleryK from './gallery-images/gallery-k.png'
+import galleryL from './gallery-images/gallery-l.png'
+import galleryM from './gallery-images/gallery-m.png'
+import galleryN from './gallery-images/gallery-n.png'
+import galleryO from './gallery-images/gallery-o.png'
+import galleryP from './gallery-images/gallery-p.png'
 
 //Style Sheet
 import './Gallery.css'
@@ -53,6 +62,33 @@ export default function Gallery() {
         </div>
         <div className='gallery-images'>
           <img src={galleryG} />
+        </div>
+        <div className='gallery-images'>
+          <img src={galleryH} alt='' />
+        </div>
+        <div className='gallery-images'>
+          <img src={galleryI} alt='' />
+        </div>
+        <div className='gallery-images'>
+          <img src={galleryJ} alt=''/>
+        </div>
+        <div className='gallery-images'>
+          <img src={galleryK} alt='' />
+        </div>
+        <div className='gallery-images'>
+          <img src={galleryL} alt='' />
+        </div>
+        <div className='gallery-images'>
+          <img src={galleryM} alt=''/>
+        </div>
+        <div className='gallery-images'>
+          <img src={galleryN} />
+        </div>
+        <div className='gallery-images'>
+          <img src={galleryO} alt=''/>
+        </div>
+        <div className='gallery-images'>
+          <img src={galleryP} />
         </div>
       </div>
 
