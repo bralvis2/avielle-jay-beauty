@@ -36,6 +36,7 @@
 /* Section Two Form  */
 .section-two-contact{
     background-color: var(--pewter);
+    padding-bottom: 5%;
 }
 
 .section-two-contact h1{
@@ -44,6 +45,24 @@
     font-size: 4rem;
 }
 
+/* Section Three FAQ */
+.section-three-contact {
+    background-color: var(--pewter);
+}
+
+.section-three-contact h1 {
+    text-align: center;
+    color: var(--dusty-rose);
+}
+
+.questions-answers {
+    width: 90%;
+    margin: auto;
+}
+
+.questions-answers p {
+    font-size: 1.25rem;
+}
 
 @media screen and (max-width:765px) {
     .section-one-contact {

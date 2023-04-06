@@ -41,6 +41,36 @@ export default function Contact() {
         <h1>SEND US AN INQUIRY</h1>
         <ContactForm />
       </div>
+
+      <div className='section-three-contact'>
+        <h1>FREQUENTLY ASKED QUESTIONS</h1>
+        <div className='questions-answers'>
+          <h2>Can I Trial Before I Book?</h2>
+          <p>Yes, I highly recommend a trial before your big day to ensure you are happy with the 
+            final look.</p>
+          <h2>Do You Travel For Weddings?</h2>
+          <p>Yes, I do offer my makeup services for weddings outside of Austin, TX. I am willing 
+            to travel to areas surrounding Austin for an additional fee to cover travel expenses. 
+            Whether your wedding is in the Hill Country or beyond, I am happy to work with you to 
+            create the perfect look for your special day. Please contact me for more information 
+            and to discuss travel arrangements.</p>
+          <h2>Can You Accomodate For A Large Wedding Party?</h2>
+          <p>I am happy to accommodate large bridal parties for weddings and other special events. 
+            For groups larger than six, I require an additional artist to ensure that everyone receives 
+            the attention they deserve. There is an additional fee per artist, but I can assure you 
+            that my team and I will work efficiently to make sure everyone is ready on time and 
+            looking their best. Please don't hesitate to contact me for more information and to discuss 
+            your specific needs.</p>
+          <h2>How Far In Advance Should I Book Your Services</h2>
+          <p>I recommend booking as far in advance as possible to secure your desired date and time. 
+            Some clients book me up to a year in advance, especially for peak wedding season. However, 
+            I do my best to accommodate last-minute bookings if my schedule allows. It's always best to 
+            reach out as soon as you know your event date to ensure availability.</p>
+          <h2>How Should I Prepare My Skin For Makeup Application</h2>
+          <p>It's important to have clean, moisturized skin before makeup application. Avoid any harsh 
+            scrubs or peels the day of and let me know if you have any specific skincare needs or concerns.</p>
+        </div>
+      </div>
     </div>
   );
 }
