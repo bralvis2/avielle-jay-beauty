@@ -53,6 +53,32 @@
     background-color: var(--pewter);
 }
 
+/* Section four  */
+.section-four-services {
+    background-color: var(--pewter);
+}
+
+.policies-container {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px var(--blush);
+    background-color: white;
+}
+
+.policies-container h1 {
+    font-size: 3.5rem;
+    color: var(--dusty-rose);
+}
+
+.policies-container p {
+    font-size: 1.25rem;
+}
+
 
 
 /* Media Queries */

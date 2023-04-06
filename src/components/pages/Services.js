@@ -128,8 +128,14 @@ export default function Services() {
               complements your wedding theme ensuring each member feels confident and beautiful.</p>
             <ul>
               <h3>Services Include:</h3>
-              <li>Styling Hair Accessories</li>
-              <li> PRICE: $85</li>
+              <li>
+                <h4>Styling Hair Accessories</h4>
+                <p>PRICE: $85</p>
+              </li>
+              <li>
+                <h4>Flower Girl Hair Styling, 5 - 10 years of age</h4>
+                <p>PRICE: $45</p>
+              </li>
             </ul>
           </div>
           <div className='service-images'>
@@ -149,8 +155,24 @@ export default function Services() {
             <img src={serviceF} alt=''/>
           </div>
         </div>
-
       </div>
+
+      <div className='section-four-services'>
+        <div className='policies-container'>
+          <h1>POLICES</h1>
+          <div>
+            <p>To secure a booking, a deposit and signed contract are required. This deposit ensures that the 
+              date and time are reserved for the client and is non-refundable. The contract outlines the terms 
+              of the makeup services, including the specific services to be provided, the fee for the services, 
+              and any other relevant details.
+              
+              For clients located in surrounding areas near Austin, Texas, there may be an additional travel fee. 
+              This fee covers the cost of transportation to and from the location, as well as any other associated expenses. 
+              The travel fee will vary depending on the distance traveled and other factors, such as tolls and parking fees.</p>
+          </div>
+        </div>
+      </div>
+
     </div>
   );
 }
