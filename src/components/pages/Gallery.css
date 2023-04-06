@@ -54,11 +54,11 @@
 }
 
 .gallery-images {
-    width: 30%;
+    height: 400px;
 }
 
 .gallery-images img {
-    width: 100%;
+    height: 100%;
     padding: 2%;
 }
 
@@ -87,9 +87,9 @@
         font-size: 4rem;
     }
 
-    .gallery-images {
+    /* .gallery-images {
         width: 45%;
-    }
+    } */
 
 }
 
@@ -118,7 +118,7 @@
     }
 
     .gallery-images {
-        width: 70%;
+        height: 250px;
     }
 
 }
@@ -130,6 +130,7 @@
     }
 
     .gallery-images {
-        width: 90%;
+        height: 200px;
+        
     }
 }
