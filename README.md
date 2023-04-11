@@ -1,77 +1,44 @@
 # ![Avielle Jay Beauty](./src/images/logo.png)
-# <h1 align='center'>COMING SOON</h1>
 
 <p align="center">
-  <img src="./src/images/AJB.png" />
+  <a href="#About">About</a> •
+  <a href="#how-to-use">How To Use</a> •
+  <a href="#credits">Credits</a> •
+  <a href="#license">License</a>
 </p>
 
-# Getting Started with Create React App
+<p align="center">
+  <a href='https://bralvis2.github.io/avielle-jay-beauty/#home' target='_blank'>
+    <img src="./src/images/AJB.png" />
+  </a>
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## About
 
-In the project directory, you can run:
+The Avielle Jay Beauty is a modern beauty and hair buisness brand. The homepage features a stunning image of a model with flawless skin, and the navigation menu offers options such as "About," "Services", "Gallery" and "Contact." Scrolling down the page reveals more information about the brand, including its mission to provide high-quality, natural, and effective beauty services that cater to diverse skin types and tones. The overall design of the website is sleek and modern, with a focus on clean lines, bold typography, and high-quality imagery. 
 
-### `npm start`
+The website is a visually appealing and user-friendly. This website was created using a combination of programming languages, including JavaScript, CSS, and HTML, and the React JavaScript library. The website's design prioritizes the user experience (UX) and user interface (UI), with an intuitive layout that makes it easy to navigate and find the desired information. The use of CSS, HTML, and JavaScript allows for the customization of the website's appearance and behavior, including the ability to implement animations, responsive design, and other interactive features. Additionally, the website's fast loading speed and smooth transitions between pages enhance the user experience. Overall, the combination of React, JavaScript, UI & UX, CSS, and HTML makes for a powerful and effective website that effectively showcases Avielle Jay Beauty's services and mission.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## How To Use
 
-### `npm test`
+- [Deployed Website](https://bralvis2.github.io/avielle-jay-beauty/#home)
+<br>
+To access this website, you can click on the link above and naviate the site using the navigation bar. 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Credits
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This software uses the following open source packages:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [React](https://reactjs.org/)
+- [ChatGPT](https://chat.openai.com/) was used for generating descriptions. 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## License
 
-### `npm run eject`
+MIT
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+> GitHub [@bralvis2](https://github.com/bralvis2) &nbsp;&middot;&nbsp;

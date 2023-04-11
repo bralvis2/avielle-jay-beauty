@@ -4,7 +4,7 @@ import AJIcon from '../images/AJB-icon.png'
 // Style Sheet
 import '../styles/Footer.css';
 
-import Nav from 'react-bootstrap/Nav';
+// import Nav from 'react-bootstrap/Nav';
 
 function Footer({ handlePageChange }){
     return (
@@ -21,7 +21,7 @@ function Footer({ handlePageChange }){
                 <h1>FOLLOW <br/>ALONG</h1>
                 <h4>@AVIELLEJAYBEAUTY</h4>
                 <div className='social-icon-container'>
-                    <a href='https://www.instagram.com/aviellejaybeauty/' target="_blank">
+                    <a href='https://www.instagram.com/aviellejaybeauty/' target="_blank" rel="noreferrer">
                         <div className='social-icons'>
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                                 <circle cx="255.25" cy="256.21" r="70.68"></circle>
@@ -32,7 +32,7 @@ function Footer({ handlePageChange }){
                             </svg>
                         </div>
                     </a>
-                    <a href='https://www.facebook.com/aviellejaybeauty' target="_blank">
+                    <a href='https://www.facebook.com/aviellejaybeauty' target="_blank" rel="noreferrer">
                         <div className='social-icons'>
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                                 <path d="M288 192v-38.1c0-17.2 3.8-25.9 30.5-25.9H352V64h-55.9c-68.5 
@@ -40,7 +40,7 @@ function Footer({ handlePageChange }){
                             </svg>
                         </div>
                     </a>
-                    <a>
+                    {/* <a>
                         <div className='social-icons'>
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                                 <path d="M256,41C137.26,41,41,137.26,41,256s96.26,215,215,215,215-96.26,215-215S374.74,41,256,
@@ -56,11 +56,11 @@ function Footer({ handlePageChange }){
                                 ,12.65.86,48,.95,53A114.45,114.45,0,0,1,352.75,223.15Z"></path>
                             </svg>
                         </div>
-                    </a>
+                    </a> */}
                 </div>
-                <div className='book-button'>
+                {/* <div className='book-button'>
                     <button className='book-online'>
-                            {/* <a href="mailto:email@gmail.com">Book Online</a> */}
+                            <a href="mailto:email@gmail.com">Book Online</a>
                             <Nav.Link href="#section-two-contact"
                               onClick={() => handlePageChange('Contact')}>
                               Book Online
@@ -74,7 +74,7 @@ function Footer({ handlePageChange }){
                                 </svg>
                             </div>
                     </button>
-                </div>
+                </div> */}
             </div>
             <div className='buisness-hours'>
                 <h3>Buisness Hours</h3>

@@ -44,15 +44,15 @@ function Navigation({ currentPage, handlePageChange }){
                               className={currentPage === 'Gallery' ? 'nav-link active' : 'nav-link'}>
                               Gallery
                     </Nav.Link>
-                    <Nav.Link href="#contact"
+                    {/* <Nav.Link href="#contact"
                               onClick={() => handlePageChange('Contact')}
                               className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}>
                               Contact
-                    </Nav.Link>
+                    </Nav.Link> */}
                     <div className="nav-link">
                         <button className='book-online'>
                             <a href="#contact"
-                              onClick={() => handlePageChange('Contact')}>Book Online</a>
+                              onClick={() => handlePageChange('Contact')}>Contact</a>
                             <div className='book-online-icon'>
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                                     <path d="M172,134a12,12,0,0,1-12-12V63a12,12,0,0,1,24,0v59A12,12,0,0,1,172,134Z"></path>
