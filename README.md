@@ -30,7 +30,7 @@ To access this website, you can click on the link above and naviate the site usi
 
 ## Credits
 
-This software uses the following open source packages:
+This website uses the following open source packages:
 
 - [React](https://reactjs.org/)
 - [ChatGPT](https://chat.openai.com/) was used for generating descriptions. 
