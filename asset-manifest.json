@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/avielle-jay-beauty/static/css/main.b7c3405f.css",
-    "main.js": "/avielle-jay-beauty/static/js/main.648eedcc.js",
+    "main.css": "/avielle-jay-beauty/static/css/main.3e063835.css",
+    "main.js": "/avielle-jay-beauty/static/js/main.91e64038.js",
     "static/media/gallery-header.png": "/avielle-jay-beauty/static/media/gallery-header.73a50326f8a0f0a7c88c.png",
     "static/media/service-e.png": "/avielle-jay-beauty/static/media/service-e.6edbdff775db60093d4f.png",
     "static/media/service-header.png": "/avielle-jay-beauty/static/media/service-header.1cc7dbeeb10587d3c3f2.png",
@@ -50,11 +50,11 @@
     "static/media/AJB-icon.png": "/avielle-jay-beauty/static/media/AJB-icon.500dfd940b72782d19a4.png",
     "static/media/feature-one.png": "/avielle-jay-beauty/static/media/feature-one.f351769b7ae5feb5427e.png",
     "index.html": "/avielle-jay-beauty/index.html",
-    "main.b7c3405f.css.map": "/avielle-jay-beauty/static/css/main.b7c3405f.css.map",
-    "main.648eedcc.js.map": "/avielle-jay-beauty/static/js/main.648eedcc.js.map"
+    "main.3e063835.css.map": "/avielle-jay-beauty/static/css/main.3e063835.css.map",
+    "main.91e64038.js.map": "/avielle-jay-beauty/static/js/main.91e64038.js.map"
   },
   "entrypoints": [
-    "static/css/main.b7c3405f.css",
-    "static/js/main.648eedcc.js"
+    "static/css/main.3e063835.css",
+    "static/js/main.91e64038.js"
   ]
 }
