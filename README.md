@@ -1,4 +1,4 @@
-# ![Avielle Jay Beauty](./src/images/logo.png)
+# ![Avielle Jay Beauty](./src/brand-images/logo.png)
 
 <p align="center">
   <a href="#About">About</a> •
@@ -9,7 +9,7 @@
 
 <p align="center">
   <a href='https://bralvis2.github.io/avielle-jay-beauty/#home' target='_blank'>
-    <img src="./src/images/AJB.png" />
+    <img src="./src/brand-images/AJB.png" />
   </a>
 </p>
 

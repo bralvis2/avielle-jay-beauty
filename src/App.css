@@ -1,0 +1,16 @@
+:root {
+    --khaki: #EAE5E1;
+    --pewter: #F9F9FB;
+    --blush: #E7DCDA;
+    --dusty-rose: #BC8880;
+    --rose: #945055;
+    --cognac: #98806B;
+    --gray: #3E3E40;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Cormorant Garamond', serif;
+    margin: 0;
+    overflow-x: hidden;
+}

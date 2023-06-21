@@ -3,7 +3,7 @@ import CRCarousel from './page-components/CRCarousel.js'
 import bannerA from './images/banner-a.png'
 import bannerB from './images/banner-b.png'
 import bannerC from './images/banner-c.png'
-import homeO from './images/home-1.png'
+import home1 from './images/anahi-a.png'
 import homeT from './images/home-2.png'
 
 
@@ -37,7 +37,7 @@ function Home({ handlePageChange }){
                 <h1 className='quote decoration'>makeup is art beauty is spirit</h1>
                 <div className='section-three'>
                     <div className='section-three-image'>
-                        <img src={homeO} alt='Client and Owner of Bella Body Design LLC' width={'600px'}/>
+                        <img src={home1} alt='Client and Owner of Bella Body Design LLC' width={'600px'}/>
                     </div>
                     <div className='beauty-services'>
                         <h1>Beauty Services</h1>

@@ -1,0 +1,175 @@
+.announcement {
+    background-color: var(--blush);
+    text-align: center;
+    padding-top: 15px;
+    font-size: 1.25rem;
+}
+
+nav {
+    background-color: var(--pewter);
+}
+.logo-item {
+   margin: auto;
+   width: 550px;
+   padding-top: 40px;
+   transition: .3s;
+}
+
+.logo-item img {
+    width: 100%;
+}
+
+.main-nav-links {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main-nav-links a {
+    text-decoration: none;
+    color: var(--gray);
+    font-size: 1.75rem;
+}
+
+.main-nav-links a:hover {
+    color: var(--rose);
+}
+
+.mobile-menu-icon {
+    display: none;
+}
+
+
+/* header {
+    background-color: var(--pewter);
+    color: var(--gray);
+}
+
+header h1 {
+    margin: auto;
+    padding-top: 10px;
+    text-align: center;
+}
+
+h1, h2 {
+    overflow: hidden;
+}
+
+nav {
+    padding-bottom: 10px;
+    font-size: 1.75rem;
+    width: 100%;
+}
+
+nav ul {
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+
+.book-online {
+    border-radius: 15px;
+    width: 200px;
+    font-size: 1.40rem;
+    background-color: var(--blush);
+    border: 1px solid var(--blush);
+    display: flex;
+    justify-content: center;
+}
+
+.book-online a {
+    color: var(--gray);
+    text-decoration: none;
+    margin-top: 2px;
+}
+
+.book-online:hover {
+    opacity: 80%;
+    color: var(--cognac);
+    cursor: pointer;
+}
+
+.book-online-icon {
+    width: 25px;
+    margin-left: 10px;
+    margin-top: 2px;
+    fill: var(--cognac)
+}
+
+
+a.nav-link:hover {
+    color: var(--rose);
+    cursor: pointer;
+}
+
+a.nav-link:active {
+    opacity: 80%;
+} */
+
+
+@media screen and (max-width: 700px){
+    .announcement p {
+        font-size: 1rem;
+    }
+
+    .logo-item {
+        margin: auto;
+        width: 350px;
+        padding-top: 20px;
+        transition: .3s;
+     }
+
+    /* .book-online {
+        margin: auto;
+    } */
+}
+
+@media screen and (max-width: 600px){
+    .main-nav-links {
+        display: none;
+    }
+
+    .mobile-menu-icon {
+        display: block;
+        position: absolute;
+        top: 90px;
+        right: 25px;
+        font-size: 25px;
+        color: var(--gray);
+        background-color: var(--pewter);
+        border: none;
+        outline: none;
+    }
+
+    .nav-links-mobile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        list-style: none;
+        transition: all 0.5s ease-out;
+        width: 100%;
+    }
+
+    .nav-links-mobile a {
+        color: var(--gray);
+        text-decoration: none;
+        font-size: 1.5rem;
+    }
+
+    .nav-links-mobile a:hover {
+        color: var(--rose);
+    }
+}
+
+@media screen and (max-width: 400px){
+    .logo-item {
+        margin: auto;
+        width: 200px;
+        padding-top: 20px;
+     }
+
+     .mobile-menu-icon {
+        top: 100px;
+        right: 25px;
+        font-size: 20px;
+    }
+}

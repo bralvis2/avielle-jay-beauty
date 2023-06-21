@@ -1,8 +1,8 @@
 import React from 'react';
-import logo from '../images/logo.png'
+import logo from '../brand-images/logo.png'
 
 // Style Sheet
-import '../styles/Container.css';
+// import './Container.css';
 
 // Bootstrap-react
 import Container from 'react-bootstrap/Container';
@@ -18,12 +18,6 @@ function Navigation({ currentPage, handlePageChange }){
                 <p>Book Today! Call/Text 512-829-7997 or send us a message from the site!</p>
             </div>
         </div>
-        <h1>
-            <a href="#home"
-               onClick={() => handlePageChange('home')} >
-                <img src={logo} className='logo' alt='Avielle Jay Beuaty' width={'380px'}/>
-            </a>
-        </h1>
         <Navbar bg="light" expand="lg">
             <Container>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -44,11 +38,11 @@ function Navigation({ currentPage, handlePageChange }){
                               className={currentPage === 'Gallery' ? 'nav-link active' : 'nav-link'}>
                               Gallery
                     </Nav.Link>
-                    {/* <Nav.Link href="#contact"
+                    <Nav.Link href="#contact"
                               onClick={() => handlePageChange('Contact')}
                               className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}>
                               Contact
-                    </Nav.Link> */}
+                    </Nav.Link>
                     <div className="nav-link">
                         <button className='book-online'>
                             <a href="#contact"

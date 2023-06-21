@@ -1,8 +1,8 @@
 import React from 'react';
-import AJIcon from '../images/AJB-icon.png'
+import AJIcon from '../brand-images/AJB-icon.png'
 
 // Style Sheet
-import '../styles/Footer.css';
+import './Footer.css';
 
 // import Nav from 'react-bootstrap/Nav';
 
