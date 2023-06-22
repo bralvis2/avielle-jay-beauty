@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import ScrollToTop from './ScrollToTop'
 
 // Pages
 import Home from './components/pages/Home';
@@ -37,8 +38,8 @@ const App = () => {
           onClick={() => setIsMobile(false)}>
 
           <li><Link to={'/about'}>About</Link></li>
-          <li><Link to={'/services'}> Services </Link></li>
-          <li><Link to={'/gallery'}> Gallery </Link></li>
+          <li><Link to={'/services'}>Services</Link></li>
+          <li><Link to={'/gallery'}>Gallery</Link></li>
           <li><Link to={'/contact'}>Contact</Link></li>
         </ul>
         <button className='mobile-menu-icon'
@@ -46,6 +47,7 @@ const App = () => {
           {isMobile ? <i className='fa fa-xmark'></i> : <i className='fa fa-bars'></i>}
         </button>
       </nav>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} exact />
         <Route path="/about" element={<About />} exact />

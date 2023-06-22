@@ -9,8 +9,8 @@
 }
 
 .gc-slide {
-   width: auto;
-   margin: auto;
+    width: auto;
+    margin: auto;
 }
 
 .gc-image-container {
@@ -23,7 +23,7 @@
 }
 
 @media screen and (max-width: 765px) {
-    .gallery-carousel-container{
+    .gallery-carousel-container {
         margin-bottom: 50px;
     }
 }

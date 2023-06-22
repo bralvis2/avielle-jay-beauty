@@ -11,17 +11,17 @@ import gCarouselC from '../images/g-carousel-c.png';
 import gCarouselD from '../images/g-carousel-d.png';
 
 
-export default function GCarousel(){
+export default function GCarousel() {
     return (
         <div className='gallery-carousel-container'>
             <Carousel>
-            <Carousel.Item>
+                <Carousel.Item>
                     <div className='gc-slide'>
                         <div className='gc-image-container'>
                             <img
-                            className="d-block"
-                            src={gCarouselA}
-                            alt=""
+                                className="d-block"
+                                src={gCarouselA}
+                                alt=""
                             />
                         </div>
                     </div>
@@ -30,9 +30,9 @@ export default function GCarousel(){
                     <div className='gc-slide'>
                         <div className='gc-image-container'>
                             <img
-                            className="d-block"
-                            src={gCarouselB}
-                            alt=""
+                                className="d-block"
+                                src={gCarouselB}
+                                alt=""
                             />
                         </div>
                     </div>
@@ -41,9 +41,9 @@ export default function GCarousel(){
                     <div className='gc-slide'>
                         <div className='gc-image-container'>
                             <img
-                            className="d-block"
-                            src={gCarouselC}
-                            alt=""
+                                className="d-block"
+                                src={gCarouselC}
+                                alt=""
                             />
                         </div>
                     </div>
@@ -52,9 +52,9 @@ export default function GCarousel(){
                     <div className='gc-slide'>
                         <div className='gc-image-container'>
                             <img
-                            className="d-block"
-                            src={gCarouselD}
-                            alt=""
+                                className="d-block"
+                                src={gCarouselD}
+                                alt=""
                             />
                         </div>
                     </div>

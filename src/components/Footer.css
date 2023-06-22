@@ -1,24 +1,20 @@
 footer {
     background-color: var(--pewter);
+    padding-top: 20px;
 }
 
 .footer-content {
-    width: 90%;
-    margin: auto;
+    width: 100%;
     display: flex;
-    justify-content: center;
-}
-
-.aj-icon {
-    width: 30%;
-    text-align: center;
-    padding: 20px;
+    justify-content: space-evenly;
 }
 
 .socials {
     text-align: center;
-    width: 30%;
-    padding: 20px;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .social-icon-container {
@@ -31,58 +27,97 @@ footer {
     width: 30px;
 }
 
-.book-button button{
-    margin: auto;
-    margin-top: 15px;
+.social-icons:hover {
+    fill: var(--cognac);
 }
 
-.buisness-hours {
+.ajb-small-icon {
+    width: 25%;
+}
+
+.ajb-small-icon img {
+    width: 100%;
+}
+
+/* .book-button button {
+    margin: auto;
+    margin-top: 15px;
+} */
+
+.footer-nav {
+    width: 33%;
     text-align: center;
-    width: 30%;
-    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer-nav h3 {
+    font-size: 2rem;
+}
+
+.footer-nav-links {
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.footer-nav-links li {
+    font-size: 1.75rem;
+    padding: 0px 10px;
+}
+
+.footer-nav-links li a {
+    text-decoration: none;
+    color: var(--gray);
+}
+
+.footer-nav-links li a:hover {
+    color: var(--cognac);
+}
+
+.footer-btn {
+    margin: 0px auto;
+}
+
+/* .buisness-hours {
+    text-align: center;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.buisness-hours h3 {
+    font-size: 1.75rem;
 }
 
 .buisness-hours ul {
     padding: 0;
-}
+    font-size: 1.25rem;
+    margin: 0px;
+} */
 
 
 Footer p {
     text-align: center;
 }
 
-@media screen and (max-width: 1000px) {
-    .footer-content {
-        width: 100%;
-        justify-content: space-around;
+@media screen and (max-width: 850px) {
+    .footer-btn {
+        width: 200px;
+        margin-bottom: 30px;
     }
-
-    .aj-icon {
-        width: 25%;
-        padding: 10px;
-    }
-
-    .socials {
-        width: 35%;
-        padding: 10px;
-    }
-
-    .buisness-hours {
-        padding: 10px;
-    }
-
 }
+
 
 @media screen and (max-width: 685px) {
     .footer-content {
-        width: 90%;
+        width: 95%;
         flex-direction: column;
         align-items: center;
-    }
-
-    .aj-icon {
-        width: 100%;
-        margin-bottom: 20px;
+        margin: auto;
     }
 
     .socials {
@@ -90,8 +125,18 @@ Footer p {
         margin-bottom: 30px;
     }
 
-    .buisness-hours {
-        width: 100%;
+    .ajb-small-icon {
+        width: 70%;
+        margin-bottom: 20px;
+    }
+
+    .footer-nav {
+        width: 90%;
+    }
+
+    .footer-nav-links li {
+        font-size: 1.65rem;
+        padding: 0px 10px;
     }
 
 }

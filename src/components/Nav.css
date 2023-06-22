@@ -8,11 +8,12 @@
 nav {
     background-color: var(--pewter);
 }
+
 .logo-item {
-   margin: auto;
-   width: 550px;
-   padding-top: 40px;
-   transition: .3s;
+    margin: auto;
+    width: 550px;
+    padding-top: 40px;
+    transition: .3s;
 }
 
 .logo-item img {
@@ -38,33 +39,13 @@ nav {
     display: none;
 }
 
-
-/* header {
-    background-color: var(--pewter);
-    color: var(--gray);
+.main-nav-links a:active,
+.nav-links-mobile a:active {
+    opacity: 50%;
 }
 
-header h1 {
-    margin: auto;
-    padding-top: 10px;
-    text-align: center;
-}
 
-h1, h2 {
-    overflow: hidden;
-}
-
-nav {
-    padding-bottom: 10px;
-    font-size: 1.75rem;
-    width: 100%;
-}
-
-nav ul {
-    width: 100%;
-    justify-content: space-evenly;
-}
-
+/* 
 
 .book-online {
     border-radius: 15px;
@@ -94,19 +75,10 @@ nav ul {
     margin-top: 2px;
     fill: var(--cognac)
 }
+ */
 
 
-a.nav-link:hover {
-    color: var(--rose);
-    cursor: pointer;
-}
-
-a.nav-link:active {
-    opacity: 80%;
-} */
-
-
-@media screen and (max-width: 700px){
+@media screen and (max-width: 700px) {
     .announcement p {
         font-size: 1rem;
     }
@@ -116,14 +88,14 @@ a.nav-link:active {
         width: 350px;
         padding-top: 20px;
         transition: .3s;
-     }
+    }
 
     /* .book-online {
         margin: auto;
     } */
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
     .main-nav-links {
         display: none;
     }
@@ -160,14 +132,14 @@ a.nav-link:active {
     }
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 400px) {
     .logo-item {
         margin: auto;
         width: 200px;
         padding-top: 20px;
-     }
+    }
 
-     .mobile-menu-icon {
+    .mobile-menu-icon {
         top: 100px;
         right: 25px;
         font-size: 20px;

@@ -6,56 +6,58 @@
 }
 
 /* Hi Babe Section */
-.section-two {
-    background-color: var(--blush);
-}
 
-.about-home {
-    width: 70%;
-    margin: auto;
-    padding: 30px 0;
+.welcome-intro {
+    background-color: var(--blush);
+    width: 100%;
+    padding: 40px;
     text-align: center;
     font-size: 1.45rem;
 }
 
 .quote {
     font-family: 'Petit Formal Script', cursive;
-    /* font-family: 'League Script', cursive; */
     text-align: center;
 }
 
 /* Starting at Decorative Quote and Services */
 .decoration {
     font-size: 2.5rem;
-    padding: 30px 0;
+    padding: 30px 20px;
     color: var(--dusty-rose);
     background-color: var(--pewter);
     margin-bottom: 0;
 }
 
-.section-three {
+.home-services {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
     background-color: var(--pewter);
     width: 100%;
 }
 
-.section-three-image{
-    display: flex;
-    width: 50%;
+.hs-image {
+    height: 550px;
+    transition: .3s;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px var(--blush);
+}
+
+.hs-image img {
+    height: 100%;
+    width: auto;
 }
 
 
-.beauty-services, .hair-services {
-    padding: 50px;
+.hs-content {
     padding-top: 5px;
     width: 50%;
 }
 
-.beauty-services h1, .hair-services h1 {
-    font-family: sans-serif;
+.hs-content h1 {
+    font-family: 'Montserrat', sans-serif;
     font-weight: 200;
     text-align: center;
     font-size: 3rem;
@@ -63,23 +65,24 @@
     border-bottom: 1px solid var(--gray);
 }
 
-.beauty-services p, .hair-services p {
-    padding-top: 20px;
+.hs-content p {
+    padding: 20px 30px;
     font-size: 1.25rem;
+    margin-bottom: 0px;
 }
 
-.beauty-services h2, .hair-services h2 {
+.hs-content h2 {
     font-size: 2.15rem;
     padding-top: 20px;
     color: var(--dusty-rose);
 }
 
-.beauty-services ul li, .hair-services ul li {
+.hs-content ul li {
     font-size: 1.3rem;
     padding: 5px 0;
 }
 
-.beauty-services-btn {
+.blush-btn {
     margin-top: 20px;
     padding: 15px;
     background-color: var(--blush);
@@ -89,19 +92,15 @@
     font-size: 1.15rem;
 }
 
-.beauty-services-btn:hover {
+.blush-btn:hover {
     opacity: 80%;
     color: var(--cognac);
 }
 
-.beauty-services-btn a {
+.blush-btn a {
     color: var(--gray);
     text-decoration: none;
     margin-top: 3px;
-}
-
-.hair-services {
-    padding-top: 30px;
 }
 
 /* Section 4 What We Offer */
@@ -155,39 +154,42 @@
     padding: 25px;
 }
 
-/* Section 5 Customer Reviews Carousel */
+/* Customer Reviews Carousel */
+.ratings {
+    display: flex;
+    justify-content: center;
+}
+
+.ratings img {
+    width: 40px;
+}
+
 /* CSS for this section is in the CRCarousel.css file in the page-components folder */
 
-
-
 /* Media Query for Responsiveness */
-@media screen and (max-width: 1200px){
-   .section-three {
-    flex-direction: column;
-    align-content: center;
+@media screen and (max-width: 1100px) {
+    .home-services {
+        flex-direction: column;
+    }
 
-   }
+    .home-hair-services {
+        flex-direction: column-reverse;
+        padding-top: 20px;
+    }
 
-   .section-three-image {
-    height: auto;
-    width: 90%;
-    justify-content: center;
-   }
+    .hs-content {
+        width: 95%;
+        text-align: center;
+    }
 
-   .beauty-services, .hair-services {
-    padding-top: 20px;
-    width: 90%;
-    margin: auto;
+    .hs-content h1 {
+        padding: 20px 0px;
+    }
+
 }
 
-.beauty-services h2, .hair-services h2,
-.beauty-services ul li, .hair-services ul li{
-    text-align: center;
-}
 
-} 
-
-@media screen and (max-width: 1320px){
+@media screen and (max-width: 1320px) {
     .offer-card-container {
         flex-direction: column;
     }
@@ -195,39 +197,58 @@
     .offer-card {
         margin: auto;
         margin-top: 30px;
-        width: 70%;
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .welcome-intro {
+        padding: 40px 20px;
+    }
+
+    .hs-image {
+        display: flex;
+        width: 90%;
+        height: auto;
+    }
+
+    .hs-image img {
+        width: 100%;
+    }
+
+    .hs-content p {
+        padding: 20px 10px;
+        font-size: 1.25rem;
+        margin-bottom: 0px;
     }
 }
 
 @media screen and (max-width: 500px) {
-    .decoration {
-        padding: 10px;
-        
-    }
 
-    .beauty-services, .hair-services {
+    .hs-content {
         padding-left: 0px;
         padding-right: 0px;
     }
 
-    .beauty-services p, .hair-services p {
+    .hs-content p {
         text-align: center;
     }
 
-    .beauty-services ul, .hair-services ul {
+    .hs-content ul {
         padding-left: 0;
     }
 
-    .beauty-services-btn {
+    .blush-btn {
         width: 100%;
     }
+
     .section-four h1 {
         padding: 25px 15px 0px 15px;
     }
+
     .offer-card {
         margin: auto;
         margin-top: 30px;
-        width: 90%;
     }
 
 }

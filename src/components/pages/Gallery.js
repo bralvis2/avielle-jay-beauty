@@ -22,6 +22,8 @@ import galleryN from './gallery-images/gallery-n.png'
 import galleryO from './gallery-images/gallery-o.png'
 import galleryP from './gallery-images/gallery-p.png'
 
+import Star from './SVG-icons/star.svg'
+
 //Style Sheet
 import './Gallery.css'
 
@@ -30,10 +32,10 @@ export default function Gallery() {
     <div className='gallery'>
       <div className='section-one-gallery'>
         <div className='gallery-header-img'>
-          <img src={galleryHeader} alt='Bride and her bridal party in blue'/>
+          <img src={galleryHeader} alt='Bride and her bridal party in blue' />
         </div>
         <div className='gallery-header-img-two'>
-          <img src={galleryHeaderTwo} alt='Bride and Groom'/>
+          <img src={galleryHeaderTwo} alt='Bride and Groom' />
         </div>
         <div className='gallery-header-text'>
           <h1>explore past client's</h1>
@@ -49,7 +51,7 @@ export default function Gallery() {
           <img src={galleryB} alt='' />
         </div>
         <div className='gallery-images'>
-          <img src={galleryC} alt=''/>
+          <img src={galleryC} alt='' />
         </div>
         <div className='gallery-images'>
           <img src={galleryD} alt='' />
@@ -58,7 +60,7 @@ export default function Gallery() {
           <img src={galleryE} alt='' />
         </div>
         <div className='gallery-images'>
-          <img src={galleryF} alt=''/>
+          <img src={galleryF} alt='' />
         </div>
         <div className='gallery-images'>
           <img src={galleryG} />
@@ -70,7 +72,7 @@ export default function Gallery() {
           <img src={galleryI} alt='' />
         </div>
         <div className='gallery-images'>
-          <img src={galleryJ} alt=''/>
+          <img src={galleryJ} alt='' />
         </div>
         <div className='gallery-images'>
           <img src={galleryK} alt='' />
@@ -79,24 +81,31 @@ export default function Gallery() {
           <img src={galleryL} alt='' />
         </div>
         <div className='gallery-images'>
-          <img src={galleryM} alt=''/>
+          <img src={galleryM} alt='' />
         </div>
         <div className='gallery-images'>
           <img src={galleryN} />
         </div>
         <div className='gallery-images'>
-          <img src={galleryO} alt=''/>
+          <img src={galleryO} alt='' />
         </div>
         <div className='gallery-images'>
           <img src={galleryP} />
         </div>
       </div>
 
-      <div className='section-five'>
-          <h1>customer reviews</h1>
-          <div>
-              <CRCarousel />
-          </div>
+      <div className='carousel-section'>
+        <div className='ratings'>
+          <img src={Star}></img>
+          <img src={Star}></img>
+          <img src={Star}></img>
+          <img src={Star}></img>
+          <img src={Star}></img>
+        </div>
+        <h1>customer reviews</h1>
+        <div>
+          <CRCarousel />
+        </div>
       </div>
     </div>
   );
