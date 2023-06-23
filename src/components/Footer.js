@@ -51,10 +51,16 @@ function Footer({ handlePageChange }) {
                         <li><Link to={'/gallery'}>Gallery</Link></li>
                         {/* <li><Link to={'/contact'}>Contact</Link></li> */}
                     </ul>
-                    <button className='blush-btn footer-btn'>
+                    <button className='blush-btn request-quote-btn'>
                         <Link to={'/contact'}>
                             Request a Quote
                         </Link>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                            <path d="M172,134a12,12,0,0,1-12-12V63a12,12,0,0,1,24,0v59A12,12,0,0,1,172,134Z"></path>
+                            <path d="M340,135a12,12,0,0,1-12-12V64a12,12,0,0,1,24,0v59A12,12,0,0,1,340,135Z"></path>
+                            <path d="M424,92H368v31a28,28,0,0,1-56,0V92H200v30a28,28,0,0,1-56,0V92H88a12,12,0,0,0-12,12V449a12,12,0,0,0,12,12H424a12,12,0,0,0,12-12V104A12,12,0,0,0,424,92ZM412,437H100V197.46H412Z"></path>
+                            <rect x="290" y="231" width="88" height="88" rx="12.34"></rect>
+                        </svg>
                     </button>
                 </div>
                 {/* <div className='buisness-hours'>

@@ -35,7 +35,7 @@
 
 /* Section Two Form  */
 .section-two-contact{
-    background-color: var(--pewter);
+    background-color: var(--blush);
     padding-bottom: 5%;
 }
 
@@ -43,34 +43,57 @@
     color: var(--dusty-rose);
     text-align: center;
     font-size: 4rem;
+    font-family: 'Petit Formal Script', cursive;
+    padding-top: 30px;
 }
 
 /* Section Three FAQ */
-.section-three-contact {
-    background-color: var(--pewter);
+ .section-three-contact {
+    background-color: var(--blush);
+    padding: 50px 10px;
 }
 
 .section-three-contact h1 {
     text-align: center;
+    font-family: 'Petit Formal Script', cursive;
     color: var(--dusty-rose);
+    font-size: 3rem;
 }
 
-.questions-answers {
-    width: 90%;
-    margin: auto;
+details {
+    margin: 30px auto;
+    padding: 20px;
+    border: 1px solid var(--pewter);
+    width: 80%;
+    /* height: 400px; */
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px var(--dusty-rose);
+    background-color: var(--pewter);
 }
 
-.questions-answers p {
-    font-size: 1.25rem;
+details summary {
+    font-size: 1.75rem;
 }
 
-/* section four decorative banner */
+details > summary {
+    list-style-type: none;
+}
+
+details p {
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+/* section four what we have to offer */
 .section-four-contact {
     background-color: var(--blush);
 }
 
 .section-four-contact h1 {
     color: var(--dusty-rose);
+    font-family: 'Petit Formal Script', cursive;
     font-size: 4rem;
     text-align: center;
 }
@@ -82,21 +105,19 @@
 
 .sf-cards {
     width: 25%;
+    height: 90%;
+    text-align: center;
 }
 
-.sf-card-images {
-    display: flex;
-    justify-content: center;
-}
-
-.sf-card-images img {
-    height: 100%;
+.sf-cards img {
+    width: 100%;
+    height: auto;
     border-radius: 219px 219px 0px 0px;
-    margin: 10px;
 }
 
 .sf-card-container h2 {
     text-align: center;
+    height: 10%;
 }
 
 

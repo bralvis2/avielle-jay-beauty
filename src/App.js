@@ -40,7 +40,7 @@ const App = () => {
           <li><Link to={'/about'}>About</Link></li>
           <li><Link to={'/services'}>Services</Link></li>
           <li><Link to={'/gallery'}>Gallery</Link></li>
-          <li><Link to={'/contact'}>Contact</Link></li>
+          <li><Link to={'/contact'}>Request a Quote</Link></li>
         </ul>
         <button className='mobile-menu-icon'
           onClick={() => setIsMobile(!isMobile)}>

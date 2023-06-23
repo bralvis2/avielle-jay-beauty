@@ -3,7 +3,6 @@ import CRCarousel from './page-components/CRCarousel.js'
 
 //Importing Images
 import galleryHeader from './images/gallery-header.png'
-import galleryHeaderTwo from './images/gallery-header2.png'
 
 import galleryA from './gallery-images/gallery-a.png'
 import galleryB from './gallery-images/gallery-b.png'
@@ -32,10 +31,7 @@ export default function Gallery() {
     <div className='gallery'>
       <div className='section-one-gallery'>
         <div className='gallery-header-img'>
-          <img src={galleryHeader} alt='Bride and her bridal party in blue' />
-        </div>
-        <div className='gallery-header-img-two'>
-          <img src={galleryHeaderTwo} alt='Bride and Groom' />
+          <img src={galleryHeader} alt='Bride and her bridal party in pink' />
         </div>
         <div className='gallery-header-text'>
           <h1>explore past client's</h1>
@@ -96,11 +92,11 @@ export default function Gallery() {
 
       <div className='carousel-section'>
         <div className='ratings'>
-          <img src={Star}></img>
-          <img src={Star}></img>
-          <img src={Star}></img>
-          <img src={Star}></img>
-          <img src={Star}></img>
+          <img src={Star} alt='star icon'></img>
+          <img src={Star} alt='star icon'></img>
+          <img src={Star} alt='star icon'></img>
+          <img src={Star} alt='star icon'></img>
+          <img src={Star} alt='star icon'></img>
         </div>
         <h1>customer reviews</h1>
         <div>

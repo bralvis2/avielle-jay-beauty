@@ -1,22 +1,29 @@
 form {
     display: flex;
     flex-direction: column;
-    width: 70%;
+    width: 80%;
     margin: auto;
     margin-bottom: 50px;
 }
 
 label {
     font-size: 1.5rem;
-    padding-top: 15px;
 }
 
-input, textarea {
+input,
+textarea {
     border-radius: 5px;
-    border: 1px solid grey;
+    border: 1px solid white;
+    padding: 5px;
 }
 
-input:hover, textarea:hover {
+textarea {
+    resize: none;
+    padding: 10px;
+}
+
+input:hover,
+textarea:hover {
     border: 1px solid var(--dusty-rose);
 }
 
@@ -24,8 +31,163 @@ input:hover, textarea:hover {
     border-radius: 15px;
     width: 200px;
     font-size: 1.40rem;
-    background-color: var(--blush);
-    border: 1px solid var(--blush);
+    background-color: var(--dusty-rose);
+    border: 1px solid var(--dusty-rose);
     margin: auto;
     margin-top: 20px;
+}
+
+.form-button:hover {
+    opacity: 60%;
+}
+
+.thanks {
+    text-align: center;
+    font-family: 'Petit Formal Script', cursive;
+    color: var(--dusty-rose);
+    font-size: 3rem;
+    padding-top: 30px;
+}
+
+.name,
+.contact-info,
+.location,
+.time {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.custom-input {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.custom-input input {
+    width: 95%;
+}
+
+input:focus,
+textarea:focus {
+    outline-color: var(--dusty-rose);
+}
+
+input[type="checkbox"]:checked {
+    accent-color: var(--dusty-rose);
+}
+
+.services-intro {
+    text-align: center;
+    padding: 10px;
+}
+
+.bridal-services {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.bridal-services h3 {
+    margin-right: 30px;
+}
+
+.check-container {
+    width: 70%;
+    display: flex;
+}
+
+.check {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.check input {
+    margin-right: 10px;
+}
+
+.party-services {
+    display: flex;
+    padding: 10px;
+}
+
+.drop-down {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.bp-service {
+    justify-content: center;
+}
+
+.drop-down select {
+    margin-left: 10px;
+}
+
+.other {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 950px) {
+    form {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 875px) {
+    .bridal-services {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .check-container {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    .party-services {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bps {
+        text-align: center;
+    }
+
+    .drop-down {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    form {
+        width: 95%;
+    }
+
+    .name,
+    .contact-info,
+    .location,
+    .time {
+        flex-direction: column;
+    }
+
+    .custom-input {
+        width: 95%;
+        margin: auto;
+        margin-left: 5%;
+    }
+
+    .check {
+        width: 90%;
+    }
+
+    .small-label {
+        font-size: 1.25rem;
+    }
 }

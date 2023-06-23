@@ -11,6 +11,7 @@ import ecreview from '../images/ec-review.png'
 import ksreview from '../images/ks-review.png'
 import mjreview from '../images/mj-review.png'
 import mmreview from '../images/mm-review.png'
+import nhreview from '../images/nh-review.png'
 
 
 
@@ -140,6 +141,27 @@ export default function CRCarousel() {
                                 makeup artist!! ❤️
                             </p>
                             <p className='client'>- Monica M.</p>
+                        </div>
+                    </div>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <div className='slide'>
+                        <div className='cr-image'>
+                            <img
+                                className="d-block"
+                                src={nhreview}
+                                alt="Noelle's review"
+                                width={'479px'}
+                            />
+                        </div>
+                        <div className='review'>
+                            <h3>"WORKED WONDERS WITH MY HAIR & MAKEUP"</h3>
+                            <p className='review-content'>Very professional and personable! Able to be adjustable with 
+                            location and timing as some of our plans changed prior to our wedding day and Anahi was so 
+                            courteous in her ability to adjust as needed. WORKED WONDERS WITH MY HAIR AND MAKEUP - our 
+                            wedding was in June and my make up never moved and my hair didn’t drop. Great personality 
+                            and made our morning getting ready fun. 10/10 would recommend.</p>
+                            <p className='client'>- Noelle H.</p>
                         </div>
                     </div>
                 </Carousel.Item>

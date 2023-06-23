@@ -77,10 +77,15 @@ footer {
     color: var(--cognac);
 }
 
-.footer-btn {
+.request-quote-btn{
     margin: 0px auto;
 }
 
+.request-quote-btn svg {
+    fill: var(--dusty-rose);
+    width: 25px;
+    margin-left: 10px;
+}
 /* .buisness-hours {
     text-align: center;
     width: 20%;
