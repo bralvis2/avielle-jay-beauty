@@ -20,6 +20,11 @@ import galleryM from './gallery-images/gallery-m.png'
 import galleryN from './gallery-images/gallery-n.png'
 import galleryO from './gallery-images/gallery-o.png'
 import galleryP from './gallery-images/gallery-p.png'
+import galleryQ from './gallery-images/gallery-q.png'
+import galleryR from './gallery-images/gallery-r.png'
+import galleryS from './gallery-images/gallery-s.png'
+import galleryT from './gallery-images/gallery-t.png'
+
 
 import Star from './SVG-icons/star.svg'
 
@@ -87,6 +92,18 @@ export default function Gallery() {
         </div>
         <div className='gallery-images'>
           <img src={galleryP} />
+        </div>
+        <div className='gallery-images'>
+          <img src={galleryQ} />
+        </div>
+        <div className='gallery-images'>
+          <img src={galleryR} />
+        </div>
+        <div className='gallery-images'>
+          <img src={galleryS} />
+        </div>
+        <div className='gallery-images'>
+          <img src={galleryT} />
         </div>
       </div>
 
