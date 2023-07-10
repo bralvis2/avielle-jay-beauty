@@ -8,7 +8,7 @@
     opacity: .5;
 }
 
-.service-header-image img, 
+.service-header-image img,
 .service-header-image-two img {
     width: 100%;
 }
@@ -46,18 +46,20 @@
 }
 
 /* Section Two Makeup Services */
-.section-two-services{
+.section-two-services {
     background-color: var(--blush);
 }
 
-.services-two-header, .services-three-header {
+.services-two-header,
+.services-three-header {
     color: var(--dusty-rose);
     text-align: center;
     padding: 40px;
     font-size: 3.5rem;
 }
 
-.service-makeup-container, .service-hair-container {
+.service-makeup-container,
+.service-hair-container {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -92,8 +94,10 @@
     font-size: 1.5rem;
 }
 
-.service-details p, .service-details ul, 
-.service-hair-details p, .service-hair-details ul {
+.service-details p,
+.service-details ul,
+.service-hair-details p,
+.service-hair-details ul {
     font-size: 1.25rem;
 }
 
@@ -125,26 +129,28 @@
 
 .policies-container p {
     font-size: 1.25rem;
+    text-align: left;
+    text-indent: 50px;
 }
 
 
 
 /* Media Queries */
-@media screen and (max-width: 1510px){
+@media screen and (max-width: 1510px) {
     .service-header-text h1 {
         font-size: 3.5rem;
     }
-    
+
     .service-header-text h2 {
         font-size: 2.5rem;
     }
-    
+
     .service-header-text p {
         font-size: 1.5rem;
     }
 }
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1200px) {
     .service-header-text {
         top: 5%;
     }
@@ -152,17 +158,17 @@
     .service-header-text h1 {
         font-size: 2.5rem;
     }
-    
+
     .service-header-text h2 {
         font-size: 2rem;
     }
-    
+
     .service-header-text p {
         font-size: 1.25rem;
     }
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 900px) {
     .service-header-text {
         top: 10px;
     }
@@ -170,20 +176,20 @@
     .service-header-text h1 {
         font-size: 2rem;
     }
-    
+
     .service-header-text h2 {
         font-size: 1.5rem;
     }
-    
+
     .service-header-text p {
         font-size: 1rem;
     }
 }
 
 
-@media screen and (max-width: 770px){
-  
-    .service-makeup-container{
+@media screen and (max-width: 770px) {
+
+    .service-makeup-container {
         flex-direction: column;
     }
 
@@ -196,7 +202,8 @@
         margin-bottom: 20px;
     }
 
-    .service-details, .service-hair-details {
+    .service-details,
+    .service-hair-details {
         width: 90%;
         margin-bottom: 5px;
         text-align: center;
@@ -207,7 +214,7 @@
     }
 }
 
-@media screen and (max-width: 705px){
+@media screen and (max-width: 705px) {
     .section-one-services {
         overflow: hidden;
     }
@@ -232,14 +239,13 @@
         border-top: 1px solid var(--cognac);
         border-left: 0px;
     }
-    
+
 }
 
-@media screen and (max-width: 565px){
+@media screen and (max-width: 565px) {
 
     .service-header-text {
         margin-top: 18%;
     }
-    
-}
 
+}

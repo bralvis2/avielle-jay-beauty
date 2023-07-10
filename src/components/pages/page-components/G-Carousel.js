@@ -7,7 +7,7 @@ import './G-Carousel.css'
 // images
 import gCarouselA from '../images/g-carousel-a.png';
 import gCarouselB from '../images/g-carousel-b.png';
-import gCarouselC from '../images/g-carousel-c.png';
+// import gCarouselC from '../images/g-carousel-c.png';
 import gCarouselD from '../images/g-carousel-d.png';
 
 
@@ -37,7 +37,7 @@ export default function GCarousel() {
                         </div>
                     </div>
                 </Carousel.Item>
-                <Carousel.Item>
+                {/* <Carousel.Item>
                     <div className='gc-slide'>
                         <div className='gc-image-container'>
                             <img
@@ -47,7 +47,7 @@ export default function GCarousel() {
                             />
                         </div>
                     </div>
-                </Carousel.Item>
+                </Carousel.Item> */}
                 <Carousel.Item>
                     <div className='gc-slide'>
                         <div className='gc-image-container'>

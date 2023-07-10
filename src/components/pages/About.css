@@ -46,6 +46,7 @@
 .owner-image img {
     border-radius: 219px 219px 0px 0px;
     width: 300px;
+    transition: .3s;
 }
 
 .meet-owner {
@@ -196,11 +197,7 @@
 }
 
 
-@media screen and (max-width: 620px){ 
-
-    .mission-statement-container {
-        top: 220px;
-    }
+@media screen and (max-width: 880px){ 
 
     .section-two-about {
         flex-direction: column;
@@ -240,6 +237,14 @@
     
     .meet-owner p {
         font-size: 1.25rem;
+    }
+
+}
+
+@media screen and (max-width: 620px){ 
+
+    .mission-statement-container {
+        top: 220px;
     }
 
 }

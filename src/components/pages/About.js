@@ -1,8 +1,8 @@
 import React from 'react';
 
-import header1 from './images/about-header.png'
+import header1 from './images/about-header1.png'
 import header2 from './images/about-header2.png'
-import owner from './images/anahi.png'
+import owner from './images/anahi-b.png'
 import featureO from './images/feature-one.png'
 import featureT from './images/feature-two.png'
 

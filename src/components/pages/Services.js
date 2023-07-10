@@ -49,7 +49,7 @@ export default function Services() {
               <h3>Services Include:</h3>
               <li>AIRBRUSH MAKEUP APPLICATION</li>
               <li>LASH APPLICATION</li>
-              <li> PRICE: $120</li>
+              <li> PRICE: $125</li>
             </ul>
           </div>
         </div>
@@ -184,10 +184,12 @@ export default function Services() {
               date and time are reserved for the client and is non-refundable. The contract outlines the terms
               of the makeup services, including the specific services to be provided, the fee for the services,
               and any other relevant details.
-
-              For clients located in surrounding areas near Austin, Texas, there may be an additional travel fee.
-              This fee covers the cost of transportation to and from the location, as well as any other associated expenses.
-              The travel fee will vary depending on the distance traveled and other factors, such as tolls and parking fees.</p>
+              </p>
+              <p>
+              A travel fee may apply for makeup artists providing on-location services to ensure the artist's
+              transportation and setup costs are covered .The travel fee will vary depending on the distance
+              traveled and other factors, such as tolls and parking fees.
+              </p>
           </div>
         </div>
       </div>

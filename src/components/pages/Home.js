@@ -53,11 +53,11 @@ function Home() {
                         <li>HD Makeup Bridal Party</li>
                         <li>Temptu Airbrush</li>
                         <li>
-                            <button className='blush-btn'>
-                                <Link to={'/services'}>
+                            <Link to={'/services'}>
+                                <button className='blush-btn'>
                                     VIEW SERVICES
-                                </Link>
-                            </button>
+                                </button>
+                            </Link>
                         </li>
                     </ul>
                 </div>
@@ -78,11 +78,11 @@ function Home() {
                         <li>Hair Styling for Bridal Party</li>
                         <li>Flower Girl Hair</li>
                         <li>
-                            <button className='blush-btn'>
-                                <Link to={'/services'}>
+                            <Link to={'/services'}>
+                                <button className='blush-btn'>
                                     VIEW SERVICES
-                                </Link>
-                            </button>
+                                </button>
+                            </Link>
                         </li>
                     </ul>
                 </div>

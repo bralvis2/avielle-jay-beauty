@@ -49,10 +49,10 @@ export default function Contact() {
         <h1>Frequently asked questions</h1>
         <div className='questions-answers'>
           <details>
-            <summary>Can I Trial Before I Book?</summary>
+            <summary>Can I Preview Before I Book?</summary>
             <p>
-              Yes, I highly recommend a trial before your big day to ensure you are happy with the
-              final look.
+              Yes, I do provide preview makeup and hair services for an additional charge after booking. 
+              I highly recommend a trial before your big day to ensure you are happy with the final look. 
             </p>
           </details>
           <details>
