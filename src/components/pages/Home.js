@@ -77,8 +77,8 @@ function Home() {
                         <li>Bridal Hair</li>
                         <li>Hair Styling for Bridal Party</li>
                         <li>Flower Girl Hair</li>
-                        <li>
-                            <Link to={'/services'} className='link-btn'>
+                        <li className='link-btn'>
+                            <Link to={'/services'}>
                                 <button className='blush-btn'>
                                     VIEW SERVICES
                                 </button>
