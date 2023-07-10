@@ -190,7 +190,7 @@ function ContactForm() {
                 <p>Please select all that apply</p>
             </div>
             <div className='bridal-services'>
-                <h3>Bridal Services:</h3>
+                <h3>BRIDAL SERVICES:</h3>
                 <div className='check-container'>
                     <div className='check'>
                         <input
@@ -214,7 +214,9 @@ function ContactForm() {
                     </div>
                 </div>
             </div>
-            <h3 className='bps'>Bridal Party Services:</h3>
+            <br/>
+            <br/>
+            <h3 className='bps'>BRIDAL PARTY SERVICES:</h3>
             <div className='party-services'>
                 <div className='drop-down'>
                     <label className='small-label' for="partymakeup">Bridal Party Makeup Application:</label>
