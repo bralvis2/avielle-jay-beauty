@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/avielle-jay-beauty/static/css/main.84fc6951.css",
+    "main.css": "/avielle-jay-beauty/static/css/main.806de4f9.css",
     "main.js": "/avielle-jay-beauty/static/js/main.a02a679c.js",
     "static/media/service-header.png": "/avielle-jay-beauty/static/media/service-header.1cc7dbeeb10587d3c3f2.png",
     "static/media/g-carousel-d.png": "/avielle-jay-beauty/static/media/g-carousel-d.f9214801fc391754eb68.png",
@@ -58,11 +58,11 @@
     "static/media/contract.svg": "/avielle-jay-beauty/static/media/contract.25ead37b8b590b0d2e916f18f7c0e555.svg",
     "index.html": "/avielle-jay-beauty/index.html",
     "static/media/star.svg": "/avielle-jay-beauty/static/media/star.9ea8d8caf7c4a7ee4b61db8f38da01d8.svg",
-    "main.84fc6951.css.map": "/avielle-jay-beauty/static/css/main.84fc6951.css.map",
+    "main.806de4f9.css.map": "/avielle-jay-beauty/static/css/main.806de4f9.css.map",
     "main.a02a679c.js.map": "/avielle-jay-beauty/static/js/main.a02a679c.js.map"
   },
   "entrypoints": [
-    "static/css/main.84fc6951.css",
+    "static/css/main.806de4f9.css",
     "static/js/main.a02a679c.js"
   ]
 }
