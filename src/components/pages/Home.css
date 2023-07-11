@@ -90,17 +90,12 @@
     border-radius: 30px;
     border: 1px solid var(--blush);
     font-size: 1.15rem;
+    color: var(--gray);
 }
 
 .blush-btn:hover {
     opacity: 80%;
     color: var(--cognac);
-}
-
-.link-btn a {
-    color: var(--gray);
-    text-decoration: none;
-    margin-top: 3px;
 }
 
 /* Section 4 What We Offer */

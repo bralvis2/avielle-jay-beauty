@@ -51,7 +51,7 @@ function Footer({ handlePageChange }) {
                         <li><Link to={'/gallery'}>Gallery</Link></li>
                         {/* <li><Link to={'/contact'}>Contact</Link></li> */}
                     </ul>
-                    <Link to={'/contact'} className='link-btn'>
+                    <Link to={'/contact'}>
                     <button className='blush-btn request-quote-btn'>
                             Request a Quote
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
