@@ -61,6 +61,15 @@
     font-family: 'Montserrat', sans-serif;
 } */
 
+.next-steps {
+    color: var(--dusty-rose);
+    background-color: var(--blush);
+    text-align: center;
+    font-size: 4rem;
+    font-family: 'Petit Formal Script', cursive;
+    padding-top: 30px;
+    margin-bottom: 0px;
+}
 .process p {
     font-size: 1.25rem;
     font-family: 'Montserrat', sans-serif;
@@ -186,5 +195,15 @@ details p {
 
     .sf-card-container h2 {
         font-size: 2.5rem;
+    }
+
+    .next-steps {
+        color: var(--dusty-rose);
+        background-color: var(--blush);
+        text-align: center;
+        font-size: 3rem;
+        font-family: 'Petit Formal Script', cursive;
+        padding-top: 30px;
+        margin-bottom: 0px;
     }
 }

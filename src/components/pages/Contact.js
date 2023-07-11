@@ -44,6 +44,7 @@ export default function Contact() {
       <div className='section-two-contact'>
         <ContactForm />
       </div>
+      <h1 className='next-steps'>next steps</h1>
       <div className='process'>
         <div className='process-card'>
           <img src={wedding} alt='wedding date'/>
