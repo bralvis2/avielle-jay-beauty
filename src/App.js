@@ -22,7 +22,7 @@ const App = () => {
   const [isMobile, setIsMobile] = useState(false);
 
   return (
-    <Router basename='/avielle-jay-beauty'>
+    <Router basename='/'>
       <div className='announcement'>
         <div>
           <p>Book Today! Call/Text 512-829-7997 or send us a message from the site!</p>
@@ -49,7 +49,7 @@ const App = () => {
       </nav>
       <ScrollToTop />
       <Routes>
-        <Route path="/" element={<Home />} exact />
+        <Route path="" element={<Home />} exact />
         <Route path="/about" element={<About />} exact />
         <Route path="/services" element={<Services />} exact />
         <Route path="/gallery" element={<Gallery />} exact />
