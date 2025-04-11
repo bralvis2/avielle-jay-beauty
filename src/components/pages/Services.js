@@ -49,7 +49,7 @@ export default function Services() {
               <h3>Services Include:</h3>
               <li>AIRBRUSH MAKEUP APPLICATION</li>
               <li>LASH APPLICATION</li>
-              <li> PRICE: $125</li>
+              <li> PRICE: $150</li>
             </ul>
           </div>
         </div>
@@ -131,7 +131,7 @@ export default function Services() {
               <h3>Services Include:</h3>
               <li>Styling Hair Accessories</li>
               <li>Bridal Veil</li>
-              <li> PRICE: $125</li>
+              <li> PRICE: $150</li>
             </ul>
           </div>
           <div className='service-images'>
@@ -149,11 +149,15 @@ export default function Services() {
               <h3>Services Include:</h3>
               <li>
                 <h4>Styling Hair Accessories</h4>
-                <p>PRICE: $85</p>
+                <p>PRICE: $95</p>
               </li>
               <li>
-                <h4>Flower Girl Hair Styling, 5 - 10 years of age</h4>
-                <p>PRICE: $45</p>
+                <h4>Flower Girl Hair Styling, 5 - 10 years of age with hot tools</h4>
+                <p>PRICE: $65</p>
+              </li>
+              <li>
+                <h4>Flower Girl Hair Styling, 5 - 10 years of age without hot tools</h4>
+                <p>PRICE: $55</p>
               </li>
             </ul>
           </div>
